@@ -361,7 +361,7 @@ body.exporting .tier.unranked { display: none; }
   align-content: flex-start;
   gap: var(--gap);
   padding: 12px;
-  min-height: calc(var(--card-h) + 24px);
+  min-height: 120px;
 }
 .tier.unranked .cards:empty::after {
   content: "NEW GAMES LAND HERE — PRESS + ADD";
@@ -373,29 +373,33 @@ body.exporting .tier.unranked { display: none; }
   opacity: .7;
 }
 
+/* Tier colours used by the card header + name strip */
+[data-theme] { --tier-bg: #2a2a52; --tier-ink: #c9c7ef; }
+[data-theme="rushmore"] { --tier-bg: linear-gradient(90deg, #ff4d6d, #ff8a3c 55%, #ffd23f); --tier-ink: #2a0712; }
+[data-theme="diamond"]  { --tier-bg: linear-gradient(90deg, #a8f3ff, #6fe4ff 50%, #3fb8e6); --tier-ink: #04263a; }
+[data-theme="platinum"] { --tier-bg: linear-gradient(90deg, #e3e7fb, #c3cbef 50%, #a3addb); --tier-ink: #1a1f42; }
+[data-theme="gold"]     { --tier-bg: linear-gradient(90deg, #ffe680, #ffd23f 50%, #e9ae14); --tier-ink: #3a2600; }
+[data-theme="silver"]   { --tier-bg: linear-gradient(90deg, #e2e2e2, #c6c6c6 50%, #a9a9a9); --tier-ink: #202020; }
+[data-theme="bronze"]   { --tier-bg: linear-gradient(90deg, #e5a464, #cd7f32 50%, #b06a26); --tier-ink: #241003; }
+[data-theme="stone"]    { --tier-bg: #6a6a70; --tier-ink: #f2f2f2; }
+[data-theme="garbage"]  { --tier-bg: linear-gradient(90deg, #8fd84a, #6cb22c 50%, #5aa021); --tier-ink: #0c1a03; }
+[data-theme="ruby"]     { --tier-bg: #e0115f; --tier-ink: #ffffff; }
+[data-theme="emerald"]  { --tier-bg: #18c27a; --tier-ink: #032816; }
+[data-theme="amethyst"] { --tier-bg: #9b5de5; --tier-ink: #ffffff; }
+[data-theme="neon"]     { --tier-bg: #ff3df0; --tier-ink: #0b0b14; }
+[data-theme="unranked"] { --tier-bg: #2a2a52; --tier-ink: #c9c7ef; }
+
 .card {
   --hue: 220;
   position: relative;
   width: var(--card-w);
-  height: var(--card-h);
   flex: 0 0 auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 6px;
-  overflow: hidden;
+  flex-direction: column;
   cursor: grab;
-  text-align: center;
   color: #fff;
-  background-color: hsl(var(--hue) 42% 20%);
-  background-image:
-    linear-gradient(180deg, hsl(var(--hue) 55% 32% / .9) 0 6px, transparent 6px),
-    conic-gradient(rgba(0,0,0,.14) 25%, transparent 0 50%, rgba(0,0,0,.14) 0 75%, transparent 0);
-  background-size: 100% 100%, 4px 4px;
-  box-shadow:
-    inset 0 0 0 3px hsl(var(--hue) 55% 46%),
-    inset 6px 6px 0 0 rgba(255, 255, 255, .08),
-    inset -6px -6px 0 0 rgba(0, 0, 0, .35);
+  background: #000;
+  box-shadow: 0 0 0 2px #000, 4px 4px 0 0 rgba(0, 0, 0, .45);
   user-select: none;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
@@ -407,28 +411,61 @@ body.exporting .tier.unranked { display: none; }
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 3;
   box-shadow: inset 0 0 0 3px var(--cyan);
   pointer-events: none;
 }
 
-.card-title {
-  position: relative;
-  z-index: 1;
+.card-rank,
+.card-name {
+  background: var(--tier-bg, #2a2a52);
+  color: var(--tier-ink, #c9c7ef);
+}
+.card-rank {
+  font-family: var(--font-px);
+  font-size: 8px;
+  line-height: 1;
+  padding: 4px 5px 3px;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .35);
+}
+.card-name {
   font-family: var(--font-txt);
-  font-size: 19px;
+  font-size: 15px;
   line-height: .95;
   text-transform: uppercase;
-  overflow-wrap: anywhere;
-  hyphens: auto;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, .6);
-  display: -webkit-box;
-  -webkit-line-clamp: 6;
-  -webkit-box-orient: vertical;
+  text-align: center;
+  padding: 3px 4px 4px;
+  height: calc(2 * .95em + 7px);
   overflow: hidden;
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, .35);
 }
 
-.card.has-cover { padding: 0; align-items: flex-end; }
-.card.has-cover img {
+.card-art {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(var(--hue) 42% 20%);
+  background-image: conic-gradient(rgba(0,0,0,.16) 25%, transparent 0 50%, rgba(0,0,0,.16) 0 75%, transparent 0);
+  background-size: 4px 4px;
+}
+/* scanlines + pixel bevel over the art */
+.card-art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: repeating-linear-gradient(to bottom, rgba(0, 0, 0, .14) 0 1px, transparent 1px 3px);
+  box-shadow: inset 3px 3px 0 0 rgba(255, 255, 255, .14), inset -3px -3px 0 0 rgba(0, 0, 0, .4);
+}
+.card-art img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -436,22 +473,32 @@ body.exporting .tier.unranked { display: none; }
   object-fit: cover;
   pointer-events: none;
 }
-.card.has-cover .card-title {
-  width: 100%;
-  font-size: 15px;
-  padding: 14px 4px 4px;
-  background: linear-gradient(transparent, rgba(0, 0, 0, .85) 40%);
-  -webkit-line-clamp: 2;
+.card-art img.bg { display: none; }
+/* Wide / square art: show it whole, on a blurred copy of itself */
+.card-art.wide img.fg { object-fit: contain; z-index: 1; }
+.card-art.wide img.bg {
+  display: block;
+  inset: -12%;
+  width: 124%;
+  height: 124%;
+  filter: blur(6px) brightness(.5) saturate(1.3);
+}
+.card-art .qmark {
+  font-family: var(--font-px);
+  font-size: 30px;
+  color: hsl(var(--hue) 80% 72%);
+  text-shadow: 3px 3px 0 #000;
 }
 
 /* drag states */
 .card.is-ghost { opacity: .25; }
-.card.is-chosen { box-shadow: inset 0 0 0 3px var(--yellow); }
+.card.is-chosen { outline: 3px solid var(--yellow); outline-offset: 1px; }
 .card.is-drag,
 .sortable-fallback {
   opacity: 1 !important;
   transform: rotate(4deg) scale(1.08);
-  box-shadow: inset 0 0 0 3px var(--yellow), 8px 8px 0 0 rgba(0, 0, 0, .55) !important;
+  outline: 3px solid var(--yellow);
+  box-shadow: 8px 8px 0 0 rgba(0, 0, 0, .55) !important;
   cursor: grabbing;
 }
 body.dragging .card:hover { transform: none; }
@@ -464,6 +511,7 @@ body.searching .card:not(.hit) { opacity: .14; }
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 3;
   box-shadow: inset 0 0 0 3px var(--neon), 0 0 12px var(--neon);
   pointer-events: none;
 }
@@ -554,7 +602,7 @@ body.searching .card:not(.hit) { opacity: .14; }
 .spacer { flex: 1; }
 
 .edit-preview { display: flex; justify-content: center; margin-bottom: 16px; }
-.edit-preview .card { cursor: default; }
+.edit-preview .card { cursor: default; width: 120px; }
 .edit-preview .card:hover { transform: none; }
 .edit-preview .card:hover::after { display: none; }
 
@@ -602,8 +650,8 @@ body.searching .card:not(.hit) { opacity: .14; }
   100% { left: 130%; }
 }
 @keyframes flash {
-  0%, 33%, 66% { box-shadow: inset 0 0 0 4px var(--yellow), 0 0 16px var(--yellow); }
-  16%, 50%, 83% { box-shadow: inset 0 0 0 3px transparent; }
+  0%, 33%, 66% { outline: 4px solid var(--yellow); outline-offset: 1px; }
+  16%, 50%, 83% { outline: 4px solid transparent; outline-offset: 1px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -642,14 +690,10 @@ body.searching .card:not(.hit) { opacity: .14; }
     padding: 8px;
     min-height: 80px;
   }
-  .card {
-    width: auto;
-    height: auto;
-    aspect-ratio: 3 / 4;
-    padding: 6px 4px;
-  }
-  .card-title { font-size: 16px; -webkit-line-clamp: 5; }
-  .card.has-cover .card-title { font-size: 13px; }
+  .card { width: auto; }
+  .card-rank { font-size: 7px; padding: 3px 4px 2px; }
+  .card-name { font-size: 13px; padding: 2px 3px 3px; }
+  .card-art .qmark { font-size: 22px; }
   .card:hover { transform: none; }
   .card:hover::after { display: none; }
   .tier.unranked .cards:empty { display: flex; }
@@ -699,24 +743,6 @@ body.searching .card:not(.hit) { opacity: .14; }
 }
 
 /* ---------- cover art ---------- */
-
-.card.has-cover::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  background: repeating-linear-gradient(to bottom, rgba(0, 0, 0, .14) 0 1px, transparent 1px 3px);
-  box-shadow:
-    inset 0 0 0 2px #000,
-    inset 4px 4px 0 0 rgba(255, 255, 255, .16),
-    inset -4px -4px 0 0 rgba(0, 0, 0, .45);
-}
-.card.has-cover .card-title { z-index: 2; }
-/* Box art already shows the logo: hide the label (show it on hover on desktop) */
-.card.cover-box .card-title { opacity: 0; transition: opacity .1s steps(2); }
-.card.cover-box:hover .card-title,
-body.searching .card.cover-box.hit .card-title { opacity: 1; }
 
 .cover-btns { display: flex; flex-wrap: wrap; margin: 0 -4px 10px; }
 .cover-btns .px-btn { font-size: 9px; }

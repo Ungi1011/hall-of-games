@@ -169,33 +169,50 @@
   }
 
   // ---------- rendering ----------
-  function cardEl(game) {
+  const rankText = (rank) => (rank ? `#${rank}` : "?");
+
+  /** A game card: tier-coloured rank strip, cover art (or a "?" block), name strip. */
+  function cardEl(game, rank) {
     const card = el("div", {
-      class: "card" + (game.cover ? ` has-cover cover-${game.coverType === "art" ? "art" : "box"}` : ""),
+      class: "card",
       dataset: { id: game.id },
       title: game.title,
       style: `--hue:${hueFor(game.title)}`,
       tabindex: "0",
       role: "button",
     });
+    const art = el("div", { class: "card-art" });
+    const qmark = () => el("span", { class: "qmark", "aria-hidden": "true" }, "?");
     if (game.cover) {
-      const img = el("img", { src: game.cover, alt: "", loading: "lazy", decoding: "async", referrerpolicy: "no-referrer" });
-      img.addEventListener("error", () => { card.classList.remove("has-cover", "cover-box", "cover-art"); img.remove(); });
-      card.append(img);
+      const opts = { src: game.cover, alt: "", loading: "lazy", decoding: "async", referrerpolicy: "no-referrer" };
+      const bg = el("img", { ...opts, class: "bg" });
+      const fg = el("img", { ...opts, class: "fg" });
+      // portrait art fills the card; wide/square art is shown whole over a blurred copy
+      fg.addEventListener("load", () => {
+        if (fg.naturalHeight && fg.naturalWidth / fg.naturalHeight > 0.8) art.classList.add("wide");
+      });
+      fg.addEventListener("error", () => art.replaceChildren(qmark()));
+      art.append(bg, fg);
+    } else {
+      art.append(qmark());
     }
-    card.append(el("span", { class: "card-title" }, game.title));
+    card.append(
+      el("div", { class: "card-rank" }, rankText(rank)),
+      art,
+      el("div", { class: "card-name" }, game.title),
+    );
     return card;
   }
 
   function tierEl({ id, name, theme, games }, extraClass = "") {
     const t = THEMES[theme] || THEMES.stone;
-    return el("section", { class: `tier ${extraClass}`.trim(), dataset: { tierId: id } },
+    return el("section", { class: `tier ${extraClass}`.trim(), dataset: { tierId: id, theme } },
       el("div", { class: "plate", dataset: { theme } },
         el("span", { class: "plate-icon", "aria-hidden": "true" }, theme === "unranked" ? "?" : t.icon),
         el("span", { class: "plate-name" }, name),
         el("span", { class: "plate-count" }, String(games.length)),
       ),
-      el("div", { class: "cards", dataset: { list: id } }, ...games.map(cardEl)),
+      el("div", { class: "cards", dataset: { list: id } }, ...games.map((g, i) => cardEl(g, id === UNRANKED ? 0 : i + 1))),
     );
   }
 
@@ -215,8 +232,10 @@
 
   function updateCounts() {
     $$(".tier").forEach((sec) => {
-      const n = $(".cards", sec).children.length;
-      $(".plate-count", sec).textContent = String(n);
+      const list = $(".cards", sec);
+      const unranked = list.dataset.list === UNRANKED;
+      [...list.children].forEach((c, i) => { $(".card-rank", c).textContent = rankText(unranked ? 0 : i + 1); });
+      $(".plate-count", sec).textContent = String(list.children.length);
     });
     const ranked = state.tiers.reduce((n, t) => n + t.games.length, 0);
     $("#stats").innerHTML = `<b>${ranked}</b> RANKED<br><b>${state.unranked.length}</b> UNRANKED`;
@@ -241,8 +260,15 @@
       ghostClass: "is-ghost",
       chosenClass: "is-chosen",
       dragClass: "is-drag",
-      onChoose() {
+      onChoose(evt) {
         if (navigator.vibrate) navigator.vibrate(12);
+        const cs = getComputedStyle(evt.item);
+        evt.item.style.setProperty("--tier-bg", cs.getPropertyValue("--tier-bg"));
+        evt.item.style.setProperty("--tier-ink", cs.getPropertyValue("--tier-ink"));
+      },
+      onUnchoose(evt) {
+        evt.item.style.removeProperty("--tier-bg");
+        evt.item.style.removeProperty("--tier-ink");
       },
       onStart() {
         dragSnapshot = clone(state);
@@ -259,6 +285,10 @@
         updateCounts();
       },
     });
+  }
+
+  function themeOf(listId) {
+    return listId === UNRANKED ? "unranked" : state.tiers.find((t) => t.id === listId)?.theme || "stone";
   }
 
   /** Rebuild list order from the DOM after a drag. */
@@ -351,8 +381,14 @@
   function updateEditPreview() {
     const title = $("#edit-title").value.trim() || "Untitled";
     const cover = $("#edit-cover").value.trim();
-    const coverType = editCover && editCover.cover === cover ? editCover.coverType : "box";
-    $("#edit-preview").replaceChildren(cardEl({ id: "preview", title, cover: cover || undefined, coverType }));
+    const found = findGame(editingId);
+    const target = $("#edit-tier").value;
+    const rank = target === UNRANKED ? 0
+      : found && found.listId === target ? found.index + 1
+      : listOf(target).length + 1;
+    const preview = $("#edit-preview");
+    preview.dataset.theme = themeOf(target);
+    preview.replaceChildren(cardEl({ id: "preview", title, cover: cover || undefined }, rank));
   }
 
   async function findCoverOptions() {
@@ -608,7 +644,7 @@
     if (document.body.classList.contains("dragging")) return;
     const old = $(`#board .card[data-id="${CSS.escape(id)}"]`);
     const found = findGame(id);
-    if (old && found) old.replaceWith(cardEl(found.game));
+    if (old && found) old.replaceWith(cardEl(found.game, found.listId === UNRANKED ? 0 : found.index + 1));
   }
 
   /** Look up covers for the given game ids (default: all games missing one). */
@@ -985,6 +1021,7 @@
     $("#form-edit").addEventListener("submit", submitEdit);
     $("#edit-title").addEventListener("input", updateEditPreview);
     $("#edit-cover").addEventListener("input", updateEditPreview);
+    $("#edit-tier").addEventListener("change", updateEditPreview);
     $("#btn-delete").addEventListener("click", deleteEditing);
 
     $$("[data-close]").forEach((b) => b.addEventListener("click", () => b.closest("dialog").close()));
