@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:58:13.799Z",
+  "updatedAt": "2026-11-20T22:58:49.072Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -484,13 +484,6 @@
           "rawgId": 892902
         },
         {
-          "id": "sword-of-the-sea",
-          "title": "Sword of the Sea",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/library_600x900.jpg",
-          "coverType": "box",
-          "rawgId": 961195
-        },
-        {
           "id": "heekakyu",
           "title": "Onimusha: Way of the Sword",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
@@ -510,6 +503,13 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 2454
+        },
+        {
+          "id": "sword-of-the-sea",
+          "title": "Sword of the Sea",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 961195
         }
       ]
     },
