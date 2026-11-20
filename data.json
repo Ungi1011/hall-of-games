@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:57:58.321Z",
+  "updatedAt": "2026-11-20T22:58:09.447Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -855,6 +855,13 @@
           "rawgId": 2743
         },
         {
+          "id": "final-fantasy-xvi",
+          "title": "Final Fantasy XVI",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 494382
+        },
+        {
           "id": "wo-long-fallen-dynasty",
           "title": "Wo Long: Fallen Dynasty",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/library_600x900.jpg",
@@ -1105,13 +1112,6 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525310/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 1002735
-        },
-        {
-          "id": "final-fantasy-xvi",
-          "title": "Final Fantasy XVI",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/library_600x900.jpg",
-          "coverType": "box",
-          "rawgId": 494382
         }
       ]
     },
