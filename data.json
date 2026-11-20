@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:57:02.017Z",
+  "updatedAt": "2026-11-20T22:57:09.570Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -503,6 +503,13 @@
           "cover": "https://media.rawg.io/media/resize/640/-/games/be8/be86ee5cf3a427c784efec1661f9b194.jpg",
           "coverType": "art",
           "rawgId": 997551
+        },
+        {
+          "id": "doom",
+          "title": "Doom",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2454
         }
       ]
     },
@@ -832,13 +839,6 @@
           "cover": "https://media.rawg.io/media/resize/640/-/screenshots/a73/a73ce51bff960a92a7e810db7bf4fb89.jpeg",
           "coverType": "art",
           "rawgId": 5352
-        },
-        {
-          "id": "doom",
-          "title": "Doom",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/library_600x900.jpg",
-          "coverType": "box",
-          "rawgId": 2454
         }
       ]
     },
