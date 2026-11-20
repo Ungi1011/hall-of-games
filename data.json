@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:56:54.713Z",
+  "updatedAt": "2026-11-20T22:57:02.017Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -736,6 +736,13 @@
           "rawgId": 5161
         },
         {
+          "id": "unicorn-overlord",
+          "title": "Unicorn Overlord",
+          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/e4d/e4d2d9720f0962ca4f6a6dd02cef331e.jpeg",
+          "coverType": "art",
+          "rawgId": 967102
+        },
+        {
           "id": "the-talos-principle",
           "title": "The Talos Principle",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257510/library_600x900.jpg",
@@ -832,13 +839,6 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 2454
-        },
-        {
-          "id": "unicorn-overlord",
-          "title": "Unicorn Overlord",
-          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/e4d/e4d2d9720f0962ca4f6a6dd02cef331e.jpeg",
-          "coverType": "art",
-          "rawgId": 967102
         }
       ]
     },
