@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:52:59.892Z",
+  "updatedAt": "2026-11-20T22:53:06.442Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -811,6 +811,13 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 2454
+        },
+        {
+          "id": "unicorn-overlord",
+          "title": "Unicorn Overlord",
+          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/e4d/e4d2d9720f0962ca4f6a6dd02cef331e.jpeg",
+          "coverType": "art",
+          "rawgId": 967102
         }
       ]
     },
@@ -1712,13 +1719,6 @@
     }
   ],
   "unranked": [
-    {
-      "id": "unicorn-overlord",
-      "title": "Unicorn Overlord",
-      "cover": "https://media.rawg.io/media/resize/640/-/screenshots/e4d/e4d2d9720f0962ca4f6a6dd02cef331e.jpeg",
-      "coverType": "art",
-      "rawgId": 967102
-    },
     {
       "id": "nioh-3",
       "title": "Nioh 3",
