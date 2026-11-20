@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T13:38:30.103Z",
+  "updatedAt": "2026-11-20T13:39:02.335Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -485,7 +485,7 @@
         },
         {
           "id": "pathfinder",
-          "title": "Pathfinder"
+          "title": "Pathfinder: Kingmaker"
         },
         {
           "id": "doom-the-dark-ages",
