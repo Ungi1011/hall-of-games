@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:52:28.859Z",
+  "updatedAt": "2026-11-20T22:52:35.996Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -482,6 +482,13 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888160/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 892902
+        },
+        {
+          "id": "sword-of-the-sea",
+          "title": "Sword of the Sea",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 961195
         }
       ]
     },
@@ -1718,13 +1725,6 @@
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/library_600x900.jpg",
       "coverType": "box",
       "rawgId": 989789
-    },
-    {
-      "id": "sword-of-the-sea",
-      "title": "Sword of the Sea",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/library_600x900.jpg",
-      "coverType": "box",
-      "rawgId": 961195
     },
     {
       "id": "saros",
