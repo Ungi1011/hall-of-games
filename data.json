@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:53:06.442Z",
+  "updatedAt": "2026-11-20T22:53:15.260Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -279,6 +279,13 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 139102
+        },
+        {
+          "id": "heekakyu",
+          "title": "Onimusha: Way of the Sword",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 994600
         }
       ]
     },
@@ -1732,13 +1739,6 @@
       "cover": "https://media.rawg.io/media/resize/640/-/games/be8/be86ee5cf3a427c784efec1661f9b194.jpg",
       "coverType": "art",
       "rawgId": 997551
-    },
-    {
-      "id": "heekakyu",
-      "title": "Onimusha: Way of the Sword",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
-      "coverType": "box",
-      "rawgId": 994600
     }
   ]
 }
