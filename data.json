@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:53:24.263Z",
+  "updatedAt": "2026-11-20T22:53:32.221Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -496,6 +496,13 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 994600
+        },
+        {
+          "id": "saros",
+          "title": "Saros",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/be8/be86ee5cf3a427c784efec1661f9b194.jpg",
+          "coverType": "art",
+          "rawgId": 997551
         }
       ]
     },
@@ -1732,13 +1739,6 @@
       "cover": "https://media.rawg.io/media/resize/640/-/games/18f/18f1e09f98c9a0e822b616d68d73c956.jpg",
       "coverType": "art",
       "rawgId": 1010940
-    },
-    {
-      "id": "saros",
-      "title": "Saros",
-      "cover": "https://media.rawg.io/media/resize/640/-/games/be8/be86ee5cf3a427c784efec1661f9b194.jpg",
-      "coverType": "art",
-      "rawgId": 997551
     }
   ]
 }
