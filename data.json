@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T13:39:02.335Z",
+  "updatedAt": "2026-11-20T14:04:04.470Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -9,19 +9,31 @@
       "games": [
         {
           "id": "outer-wilds",
-          "title": "Outer Wilds"
+          "title": "Outer Wilds",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58764
         },
         {
           "id": "the-last-of-us",
-          "title": "The Last of Us"
+          "title": "The Last of Us",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/a5a/a5a7fb8d9cb8063a8b42ee002b410db6.jpg",
+          "coverType": "art",
+          "rawgId": 3990
         },
         {
           "id": "bloodborne",
-          "title": "Bloodborne"
+          "title": "Bloodborne",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/214/214b29aeff13a0ae6a70fc4426e85991.jpg",
+          "coverType": "art",
+          "rawgId": 3387
         },
         {
           "id": "disco-elysium",
-          "title": "Disco Elysium"
+          "title": "Disco Elysium",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 262382
         }
       ]
     },
@@ -32,131 +44,227 @@
       "games": [
         {
           "id": "hades",
-          "title": "Hades"
+          "title": "Hades",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 274755
         },
         {
           "id": "nier-automata",
-          "title": "NieR: Automata"
+          "title": "NieR: Automata",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 10141
         },
         {
           "id": "hollow-knight-silksong",
-          "title": "Hollow Knight: Silksong"
+          "title": "Hollow Knight: Silksong",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 292844
         },
         {
           "id": "hollow-knight",
-          "title": "Hollow Knight"
+          "title": "Hollow Knight",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 9767
         },
         {
           "id": "slay-the-spire",
-          "title": "Slay the Spire"
+          "title": "Slay the Spire",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 28121
         },
         {
           "id": "returnal",
-          "title": "Returnal"
+          "title": "Returnal",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 452639
         },
         {
           "id": "sekiro-shadows-die-twice",
-          "title": "Sekiro: Shadows Die Twice"
+          "title": "Sekiro: Shadows Die Twice",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 50734
         },
         {
           "id": "baldur-s-gate-3",
-          "title": "Baldur's Gate 3"
+          "title": "Baldur's Gate 3",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 324997
         },
         {
           "id": "shadow-of-the-colossus",
-          "title": "Shadow of the Colossus"
+          "title": "Shadow of the Colossus",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/8ea/8ea1e2850d7568bc9733d546c0ac6ce1.jpg",
+          "coverType": "art",
+          "rawgId": 59248
         },
         {
           "id": "clair-obscur-expedition-33",
-          "title": "Clair Obscur: Expedition 33"
+          "title": "Clair Obscur: Expedition 33",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 983210
         },
         {
           "id": "death-stranding",
-          "title": "Death Stranding"
+          "title": "Death Stranding",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190460/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 50738
         },
         {
           "id": "the-witness",
-          "title": "The Witness"
+          "title": "The Witness",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/210970/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2873
         },
         {
           "id": "monster-hunter-world",
-          "title": "Monster Hunter: World"
+          "title": "Monster Hunter: World",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 46889
         },
         {
           "id": "god-of-war-iii",
-          "title": "God of War III"
+          "title": "God of War III",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/289/289951d92239d05f2a663d632aa3888a.jpg",
+          "coverType": "art",
+          "rawgId": 39039
         },
         {
           "id": "metaphor-refantazio",
-          "title": "Metaphor: ReFantazio"
+          "title": "Metaphor: ReFantazio",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 963212
         },
         {
           "id": "yakuza-0",
-          "title": "Yakuza 0"
+          "title": "Yakuza 0",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638970/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 492
         },
         {
           "id": "dark-souls",
-          "title": "Dark Souls"
+          "title": "Dark Souls",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/582/582b5518a52f5086d15dde128264b94d.jpg",
+          "coverType": "art",
+          "rawgId": 5538
         },
         {
           "id": "darkest-dungeon",
-          "title": "Darkest Dungeon"
+          "title": "Darkest Dungeon",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 1244
         },
         {
           "id": "nier-replicant",
-          "title": "NieR Replicant"
+          "title": "NieR Replicant",
+          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/9cb/9cb2d120f04d685ac8be7aa0c1ff0d2b.jpg",
+          "coverType": "art",
+          "rawgId": 326224
         },
         {
           "id": "persona-5",
-          "title": "Persona 5"
+          "title": "Persona 5",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/3ea/3ea0e57ede873970c0f1130e30d88749.jpg",
+          "coverType": "art",
+          "rawgId": 49
         },
         {
           "id": "nioh-2",
-          "title": "Nioh 2"
+          "title": "Nioh 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325200/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58815
         },
         {
           "id": "balatro",
-          "title": "Balatro"
+          "title": "Balatro",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 977316
         },
         {
           "id": "batman-arkham-asylum",
-          "title": "Batman: Arkham Asylum"
+          "title": "Batman: Arkham Asylum",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/d56/d564ee964eb3c17892b3b35dd607f836.jpg",
+          "coverType": "art",
+          "rawgId": 4123
         },
         {
           "id": "bayonetta",
-          "title": "Bayonetta"
+          "title": "Bayonetta",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 4101
         },
         {
           "id": "risk-of-rain-2",
-          "title": "Risk of Rain 2"
+          "title": "Risk of Rain 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 263590
         },
         {
           "id": "celeste",
-          "title": "Celeste"
+          "title": "Celeste",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 22121
         },
         {
           "id": "fez",
-          "title": "Fez"
+          "title": "Fez",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/224760/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3740
         },
         {
           "id": "pyre",
-          "title": "Pyre"
+          "title": "Pyre",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/462770/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 27
         },
         {
           "id": "journey",
-          "title": "Journey"
+          "title": "Journey",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638230/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3254
         },
         {
           "id": "furi",
-          "title": "Furi"
+          "title": "Furi",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/423230/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2239
         },
         {
           "id": "frostpunk",
-          "title": "Frostpunk"
+          "title": "Frostpunk",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 45821
         },
         {
           "id": "inscryption",
-          "title": "Inscryption"
+          "title": "Inscryption",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 479694
         }
       ]
     },
@@ -167,115 +275,199 @@
       "games": [
         {
           "id": "elden-ring",
-          "title": "Elden Ring"
+          "title": "Elden Ring",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 326243
         },
         {
           "id": "control",
-          "title": "Control"
+          "title": "Control",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58812
         },
         {
           "id": "death-stranding-2",
-          "title": "Death Stranding 2"
+          "title": "Death Stranding 2",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/b85/b85bc300d42588af66fb516b7563f74f.jpg",
+          "coverType": "art",
+          "rawgId": 891532
         },
         {
           "id": "cyberpunk-2077",
-          "title": "Cyberpunk 2077"
+          "title": "Cyberpunk 2077",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 41494
         },
         {
           "id": "uncharted-4",
-          "title": "Uncharted 4"
+          "title": "Uncharted 4",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/709/709bf81f874ce5d25d625b37b014cb63.jpg",
+          "coverType": "art",
+          "rawgId": 2462
         },
         {
           "id": "the-last-guardian",
-          "title": "The Last Guardian"
+          "title": "The Last Guardian",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/276/2769b1982cd132a60c69dc5d574445fa.jpg",
+          "coverType": "art",
+          "rawgId": 693
         },
         {
           "id": "tunic",
-          "title": "Tunic"
+          "title": "Tunic",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553420/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 29236
         },
         {
           "id": "hotline-miami",
-          "title": "Hotline Miami"
+          "title": "Hotline Miami",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219150/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3612
         },
         {
           "id": "katamari-damacy",
-          "title": "Katamari Damacy"
+          "title": "Katamari Damacy",
+          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/c4e/c4ea10607b6df252b45b1820f2fcaaf5.jpg",
+          "coverType": "art",
+          "rawgId": 4024
         },
         {
           "id": "god-of-war-ii",
-          "title": "God of War II"
+          "title": "God of War II",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/615/615e9fc0a325e0d87b84dad029b8b7b9.jpg",
+          "coverType": "art",
+          "rawgId": 39707
         },
         {
           "id": "god-of-war",
-          "title": "God of War"
+          "title": "God of War",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58175
         },
         {
           "id": "divinity-original-sin-2",
-          "title": "Divinity: Original Sin 2"
+          "title": "Divinity: Original Sin 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 10073
         },
         {
           "id": "diablo-ii",
-          "title": "Diablo II"
+          "title": "Diablo II",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/8f7/8f79c37b124822e59af54023ae6bb384.jpg",
+          "coverType": "art",
+          "rawgId": 22512
         },
         {
           "id": "gta-san-andreas",
-          "title": "GTA: San Andreas"
+          "title": "GTA: San Andreas",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12120/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 416
         },
         {
           "id": "noita",
-          "title": "Noita"
+          "title": "Noita",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881100/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 61694
         },
         {
           "id": "return-of-the-obra-dinn",
-          "title": "Return of the Obra Dinn"
+          "title": "Return of the Obra Dinn",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/653530/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 46508
         },
         {
           "id": "blue-prince",
-          "title": "Blue Prince"
+          "title": "Blue Prince",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 1001007
         },
         {
           "id": "pentiment",
-          "title": "Pentiment"
+          "title": "Pentiment",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1205520/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 801567
         },
         {
           "id": "papers-please",
-          "title": "Papers, Please"
+          "title": "Papers, Please",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239030/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 1358
         },
         {
           "id": "devil-may-cry-5",
-          "title": "Devil May Cry 5"
+          "title": "Devil May Cry 5",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58755
         },
         {
           "id": "inside",
-          "title": "Inside"
+          "title": "Inside",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304430/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 1450
         },
         {
           "id": "limbo",
-          "title": "Limbo"
+          "title": "Limbo",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/48000/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 1030
         },
         {
           "id": "nioh",
-          "title": "Nioh"
+          "title": "Nioh",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/f84/f84c7c45e074117fb81fecf427f8b41f.jpg",
+          "coverType": "art",
+          "rawgId": 401
         },
         {
           "id": "okami",
-          "title": "Okami"
+          "title": "Okami",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/922/92244532ff3c3f277824c0cf8941f187.jpg",
+          "coverType": "art",
+          "rawgId": 25449
         },
         {
           "id": "cuphead",
-          "title": "Cuphead"
+          "title": "Cuphead",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 28154
         },
         {
           "id": "helldivers-2",
-          "title": "Helldivers 2"
+          "title": "Helldivers 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 976564
         },
         {
           "id": "red-dead-redemption-2",
-          "title": "Red Dead Redemption 2"
+          "title": "Red Dead Redemption 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 28
         },
         {
           "id": "armored-core-vi",
-          "title": "Armored Core VI"
+          "title": "Armored Core VI",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888160/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 892902
         }
       ]
     },
@@ -286,183 +478,318 @@
       "games": [
         {
           "id": "batman-arkham-knight",
-          "title": "Batman: Arkham Knight"
+          "title": "Batman: Arkham Knight",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208650/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3287
         },
         {
           "id": "the-wonderful-101",
-          "title": "The Wonderful 101"
+          "title": "The Wonderful 101",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/a25/a25ac0fa96bbf913ea3025488564e75f.jpg",
+          "coverType": "art",
+          "rawgId": 27297
         },
         {
           "id": "transistor",
-          "title": "Transistor"
+          "title": "Transistor",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/237930/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 1010
         },
         {
           "id": "bastion",
-          "title": "Bastion"
+          "title": "Bastion",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107100/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 613
         },
         {
           "id": "monster-hunter-wilds",
-          "title": "Monster Hunter Wilds"
+          "title": "Monster Hunter Wilds",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 973391
         },
         {
           "id": "yakuza-kiwami",
-          "title": "Yakuza Kiwami"
+          "title": "Yakuza Kiwami",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/834530/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 44525
         },
         {
           "id": "demon-s-souls",
-          "title": "Demon's Souls"
+          "title": "Demon's Souls",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/ac3/ac3a89bfbda76082402e42b933c5825a.jpg",
+          "coverType": "art",
+          "rawgId": 4108
         },
         {
           "id": "black-myth-wukong",
-          "title": "Black Myth: Wukong"
+          "title": "Black Myth: Wukong",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 481913
         },
         {
           "id": "uncharted-3",
-          "title": "Uncharted 3"
+          "title": "Uncharted 3",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/589/589fc47c5ae34160d65c4682e21fed66.jpg",
+          "coverType": "art",
+          "rawgId": 5703
         },
         {
           "id": "uncharted-2",
-          "title": "Uncharted 2"
+          "title": "Uncharted 2",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/74b/74b239f6ef0216a2f66e652d54abb2e6.jpg",
+          "coverType": "art",
+          "rawgId": 22513
         },
         {
           "id": "final-fantasy-xvi",
-          "title": "Final Fantasy XVI"
+          "title": "Final Fantasy XVI",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 494382
         },
         {
           "id": "ico",
-          "title": "Ico"
+          "title": "Ico",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/3ef/3ef0dc5bda761da51de4dcb170dcf32a.jpg",
+          "coverType": "art",
+          "rawgId": 4490
         },
         {
           "id": "like-a-dragon",
-          "title": "Like a Dragon"
+          "title": "Like a Dragon",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 962025
         },
         {
           "id": "hellblade-senua-s-sacrifice",
-          "title": "Hellblade: Senua's Sacrifice"
+          "title": "Hellblade: Senua's Sacrifice",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414340/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 12536
         },
         {
           "id": "sifu",
-          "title": "Sifu"
+          "title": "Sifu",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 564757
         },
         {
           "id": "catherine",
-          "title": "Catherine"
+          "title": "Catherine",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/893180/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 4466
         },
         {
           "id": "yakuza-kiwami-2",
-          "title": "Yakuza Kiwami 2"
+          "title": "Yakuza Kiwami 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/927380/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58835
         },
         {
           "id": "ghostrunner",
-          "title": "Ghostrunner"
+          "title": "Ghostrunner",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139900/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 366850
         },
         {
           "id": "super-meat-boy",
-          "title": "Super Meat Boy"
+          "title": "Super Meat Boy",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40800/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3144
         },
         {
           "id": "the-walking-dead-season-1",
-          "title": "The Walking Dead: Season 1"
+          "title": "The Walking Dead: Season 1",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/207610/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 23027
         },
         {
           "id": "max-payne",
-          "title": "Max Payne"
+          "title": "Max Payne",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202570/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2518
         },
         {
           "id": "wolfenstein-the-old-blood",
-          "title": "Wolfenstein: The Old Blood"
+          "title": "Wolfenstein: The Old Blood",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/350080/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3346
         },
         {
           "id": "neon-white",
-          "title": "Neon White"
+          "title": "Neon White",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1533420/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 558980
         },
         {
           "id": "tactics-ogre-reborn",
-          "title": "Tactics Ogre: Reborn"
+          "title": "Tactics Ogre: Reborn",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1451090/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 852720
         },
         {
           "id": "dragon-s-dogma",
-          "title": "Dragon's Dogma"
+          "title": "Dragon's Dogma",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/14e/14e4214a252c67083206aa6af30e13ed.jpg",
+          "coverType": "art",
+          "rawgId": 4297
         },
         {
           "id": "risk-of-rain",
-          "title": "Risk of Rain"
+          "title": "Risk of Rain",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/248820/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2556
         },
         {
           "id": "thumper",
-          "title": "Thumper"
+          "title": "Thumper",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/356400/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 1152
         },
         {
           "id": "like-a-dragon-ishin",
-          "title": "Like a Dragon: Ishin!"
+          "title": "Like a Dragon: Ishin!",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805480/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 850698
         },
         {
           "id": "prey",
-          "title": "Prey"
+          "title": "Prey",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/480490/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 39
         },
         {
           "id": "danganronpa",
-          "title": "Danganronpa"
+          "title": "Danganronpa",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413410/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3775
         },
         {
           "id": "the-binding-of-isaac",
-          "title": "The Binding of Isaac"
+          "title": "The Binding of Isaac",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 19384
         },
         {
           "id": "braid",
-          "title": "Braid"
+          "title": "Braid",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26800/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 5161
         },
         {
           "id": "the-talos-principle",
-          "title": "The Talos Principle"
+          "title": "The Talos Principle",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257510/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 12929
         },
         {
           "id": "what-remains-of-edith-finch",
-          "title": "What Remains of Edith Finch"
+          "title": "What Remains of Edith Finch",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/501300/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 42
         },
         {
           "id": "olliolli-world",
-          "title": "OlliOlli World"
+          "title": "OlliOlli World",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190170/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 586054
         },
         {
           "id": "metrico",
-          "title": "Metrico+"
+          "title": "Metrico+",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/373990/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 1812
         },
         {
           "id": "loot-river",
-          "title": "Loot River"
+          "title": "Loot River",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1494260/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 587621
         },
         {
           "id": "dead-cells",
-          "title": "Dead Cells"
+          "title": "Dead Cells",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 11726
         },
         {
           "id": "manifold-garden",
-          "title": "Manifold Garden"
+          "title": "Manifold Garden",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/473950/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 18905
         },
         {
           "id": "golf-club-wasteland",
-          "title": "Golf Club: Wasteland"
+          "title": "Golf Club: Wasteland",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1556870/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58939
         },
         {
           "id": "crypt-of-the-necrodancer",
-          "title": "Crypt of the NecroDancer"
+          "title": "Crypt of the NecroDancer",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247080/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2845
         },
         {
           "id": "hotline-miami-2",
-          "title": "Hotline Miami 2"
+          "title": "Hotline Miami 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/274170/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3408
         },
         {
           "id": "gorogoa",
-          "title": "Gorogoa"
+          "title": "Gorogoa",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/557600/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 14188
         },
         {
           "id": "patapon",
-          "title": "Patapon"
+          "title": "Patapon",
+          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/a73/a73ce51bff960a92a7e810db7bf4fb89.jpeg",
+          "coverType": "art",
+          "rawgId": 5352
         },
         {
           "id": "doom",
-          "title": "Doom"
+          "title": "Doom",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2454
         }
       ]
     },
@@ -473,55 +800,94 @@
       "games": [
         {
           "id": "pillars-of-eternity-ii",
-          "title": "Pillars of Eternity II"
+          "title": "Pillars of Eternity II",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/560130/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 49874
         },
         {
           "id": "heavy-rain",
-          "title": "Heavy Rain"
+          "title": "Heavy Rain",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960910/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2743
         },
         {
           "id": "wo-long-fallen-dynasty",
-          "title": "Wo Long: Fallen Dynasty"
+          "title": "Wo Long: Fallen Dynasty",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 801638
         },
         {
           "id": "pathfinder",
-          "title": "Pathfinder: Kingmaker"
+          "title": "Pathfinder: Kingmaker",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/640820/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 59611
         },
         {
           "id": "doom-the-dark-ages",
-          "title": "Doom: The Dark Ages"
+          "title": "Doom: The Dark Ages",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 983381
         },
         {
           "id": "space-marine-2",
-          "title": "Space Marine 2"
+          "title": "Space Marine 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 705616
         },
         {
           "id": "age-of-mythology",
-          "title": "Age of Mythology"
+          "title": "Age of Mythology",
+          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/584/584f4c934f490c17462cbd43477fa965.jpg",
+          "coverType": "art",
+          "rawgId": 30520
         },
         {
           "id": "batman-arkham-city",
-          "title": "Batman: Arkham City"
+          "title": "Batman: Arkham City",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200260/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 28623
         },
         {
           "id": "darkest-dungeon-ii",
-          "title": "Darkest Dungeon II"
+          "title": "Darkest Dungeon II",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1940340/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 295014
         },
         {
           "id": "elden-ring-nightreign",
-          "title": "Elden Ring Nightreign"
+          "title": "Elden Ring Nightreign",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622380/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 997548
         },
         {
           "id": "stellar-blade",
-          "title": "Stellar Blade"
+          "title": "Stellar Blade",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 476122
         },
         {
           "id": "death-s-door",
-          "title": "Death's Door"
+          "title": "Death's Door",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/894020/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 579507
         },
         {
           "id": "uncharted",
-          "title": "Uncharted"
+          "title": "Uncharted",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/709/709bf81f874ce5d25d625b37b014cb63.jpg",
+          "coverType": "art",
+          "rawgId": 2462
         },
         {
           "id": "olliolli-2",
@@ -529,91 +895,157 @@
         },
         {
           "id": "wolfenstein-the-new-order",
-          "title": "Wolfenstein: The New Order"
+          "title": "Wolfenstein: The New Order",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/201810/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3696
         },
         {
           "id": "pillars-of-eternity",
-          "title": "Pillars of Eternity"
+          "title": "Pillars of Eternity",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291650/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 15829
         },
         {
           "id": "yakuza-3",
-          "title": "Yakuza 3"
+          "title": "Yakuza 3",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/8a7/8a71061c3b098f8ea4b9657ab473445a.jpg",
+          "coverType": "art",
+          "rawgId": 21958
         },
         {
           "id": "mark-of-the-ninja",
-          "title": "Mark of the Ninja"
+          "title": "Mark of the Ninja",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214560/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 11974
         },
         {
           "id": "bloodstained-ritual-of-the-night",
-          "title": "Bloodstained: Ritual of the Night"
+          "title": "Bloodstained: Ritual of the Night",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/692850/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 61176
         },
         {
           "id": "superhot",
-          "title": "Superhot"
+          "title": "Superhot",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322500/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 7819
         },
         {
           "id": "tomb-raider",
-          "title": "Tomb Raider"
+          "title": "Tomb Raider",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 5286
         },
         {
           "id": "vagante",
-          "title": "Vagante"
+          "title": "Vagante",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323220/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 12121
         },
         {
           "id": "the-rogue-prince-of-persia",
-          "title": "The Rogue Prince of Persia"
+          "title": "The Rogue Prince of Persia",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2717880/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 981792
         },
         {
           "id": "peggle",
-          "title": "Peggle"
+          "title": "Peggle",
+          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/ea8/ea82ea0e91daeafd6b98d22166c0913b.jpg",
+          "coverType": "art",
+          "rawgId": 28539
         },
         {
           "id": "peggle-2",
-          "title": "Peggle 2"
+          "title": "Peggle 2",
+          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/946/94683098e0befd482e5c890bd03cda26.jpg",
+          "coverType": "art",
+          "rawgId": 3550
         },
         {
           "id": "dome-keeper",
-          "title": "Dome Keeper"
+          "title": "Dome Keeper",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1637320/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 782340
         },
         {
           "id": "mirror-s-edge",
-          "title": "Mirror's Edge"
+          "title": "Mirror's Edge",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17410/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 4252
         },
         {
           "id": "tales-from-the-borderlands",
-          "title": "Tales from the Borderlands"
+          "title": "Tales from the Borderlands",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/330830/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2100
         },
         {
           "id": "batman-the-telltale-series",
-          "title": "Batman: The Telltale Series"
+          "title": "Batman: The Telltale Series",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/498240/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 295001
         },
         {
           "id": "gone-home",
-          "title": "Gone Home"
+          "title": "Gone Home",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/232430/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 18003
         },
         {
           "id": "everybody-s-gone-to-the-rapture",
-          "title": "Everybody's Gone to the Rapture"
+          "title": "Everybody's Gone to the Rapture",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/417880/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3223
         },
         {
           "id": "the-wolf-among-us",
-          "title": "The Wolf Among Us"
+          "title": "The Wolf Among Us",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250320/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 1682
         },
         {
           "id": "death-squared",
-          "title": "Death Squared"
+          "title": "Death Squared",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/471810/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 174
         },
         {
           "id": "lonely-mountains-downhill",
-          "title": "Lonely Mountains: Downhill"
+          "title": "Lonely Mountains: Downhill",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/711540/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 46403
         },
         {
           "id": "curse-of-the-dead-gods",
-          "title": "Curse of the Dead Gods"
+          "title": "Curse of the Dead Gods",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123770/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 387328
         },
         {
           "id": "gran-turismo-7",
-          "title": "Gran Turismo 7"
+          "title": "Gran Turismo 7",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/3f6/3f6a04b856f23310d3c2f5be8c5963f7.jpg",
+          "coverType": "art",
+          "rawgId": 452633
         }
       ]
     },
@@ -624,195 +1056,339 @@
       "games": [
         {
           "id": "god-of-war-ragnarok",
-          "title": "God of War Ragnarök"
+          "title": "God of War Ragnarök",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 494384
         },
         {
           "id": "god-of-war-2018",
-          "title": "God of War (2018)"
+          "title": "God of War (2018)",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58175
         },
         {
           "id": "dragon-s-dogma-2",
-          "title": "Dragon's Dogma 2"
+          "title": "Dragon's Dogma 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 804753
         },
         {
           "id": "jedi-fallen-order",
-          "title": "Jedi: Fallen Order"
+          "title": "Jedi: Fallen Order",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172380/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 257201
         },
         {
           "id": "path-of-exile-2",
-          "title": "Path of Exile 2"
+          "title": "Path of Exile 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 391403
         },
         {
           "id": "monster-hunter-rise",
-          "title": "Monster Hunter Rise"
+          "title": "Monster Hunter Rise",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 494393
         },
         {
           "id": "uncharted-the-lost-legacy",
-          "title": "Uncharted: The Lost Legacy"
+          "title": "Uncharted: The Lost Legacy",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/560/56056a71c74f751552c9baedebf8f317.jpg",
+          "coverType": "art",
+          "rawgId": 21926
         },
         {
           "id": "shadow-of-the-tomb-raider",
-          "title": "Shadow of the Tomb Raider"
+          "title": "Shadow of the Tomb Raider",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 51329
         },
         {
           "id": "rise-of-the-tomb-raider",
-          "title": "Rise of the Tomb Raider"
+          "title": "Rise of the Tomb Raider",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 7689
         },
         {
           "id": "deep-rock-galactic",
-          "title": "Deep Rock Galactic"
+          "title": "Deep Rock Galactic",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 9551
         },
         {
           "id": "batman-arkham-origins",
-          "title": "Batman: Arkham Origins"
+          "title": "Batman: Arkham Origins",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209000/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2235
         },
         {
           "id": "diablo-iv",
-          "title": "Diablo IV"
+          "title": "Diablo IV",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 388309
         },
         {
           "id": "lords-of-the-fallen",
-          "title": "Lords of the Fallen"
+          "title": "Lords of the Fallen",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/265300/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2047
         },
         {
           "id": "riders-republic",
-          "title": "Riders Republic"
+          "title": "Riders Republic",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290180/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 490752
         },
         {
           "id": "gta-v",
-          "title": "GTA V"
+          "title": "GTA V",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3498
         },
         {
           "id": "beyond-two-souls",
-          "title": "Beyond: Two Souls"
+          "title": "Beyond: Two Souls",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960990/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3028
         },
         {
           "id": "ni-no-kuni-ii",
-          "title": "Ni no Kuni II"
+          "title": "Ni no Kuni II",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/589360/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 29180
         },
         {
           "id": "viewfinder",
-          "title": "Viewfinder"
+          "title": "Viewfinder",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1382070/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 776267
         },
         {
           "id": "chants-of-sennaar",
-          "title": "Chants of Sennaar"
+          "title": "Chants of Sennaar",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1931770/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 772603
         },
         {
           "id": "steep",
-          "title": "Steep"
+          "title": "Steep",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460920/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 715
         },
         {
           "id": "weird-west",
-          "title": "Weird West"
+          "title": "Weird West",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097350/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 398409
         },
         {
           "id": "dave-the-diver",
-          "title": "Dave the Diver"
+          "title": "Dave the Diver",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 871264
         },
         {
           "id": "judgment",
-          "title": "Judgment"
+          "title": "Judgment",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058180/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 630676
         },
         {
           "id": "absolver",
-          "title": "Absolver"
+          "title": "Absolver",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/473690/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 11223
         },
         {
           "id": "it-takes-two",
-          "title": "It Takes Two"
+          "title": "It Takes Two",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 455597
         },
         {
           "id": "children-of-morta",
-          "title": "Children of Morta"
+          "title": "Children of Morta",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/330020/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 14211
         },
         {
           "id": "jusant",
-          "title": "Jusant"
+          "title": "Jusant",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1977170/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 962137
         },
         {
           "id": "guardians-of-the-galaxy",
-          "title": "Guardians of the Galaxy"
+          "title": "Guardians of the Galaxy",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088850/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 616765
         },
         {
           "id": "the-pedestrian",
-          "title": "The Pedestrian"
+          "title": "The Pedestrian",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/466630/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 15730
         },
         {
           "id": "ruined-king",
-          "title": "Ruined King"
+          "title": "Ruined King",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1276790/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 398406
         },
         {
           "id": "nobody-saves-the-world",
-          "title": "Nobody Saves the World"
+          "title": "Nobody Saves the World",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1432050/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 650608
         },
         {
           "id": "cult-of-the-lamb",
-          "title": "Cult of the Lamb"
+          "title": "Cult of the Lamb",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 650605
         },
         {
           "id": "tails-of-iron",
-          "title": "Tails of Iron"
+          "title": "Tails of Iron",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1283410/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 300689
         },
         {
           "id": "ratchet-and-clank-rift-apart",
-          "title": "Ratchet & Clank: Rift Apart"
+          "title": "Ratchet & Clank: Rift Apart",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895880/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 727315
         },
         {
           "id": "inkulinati",
-          "title": "Inkulinati"
+          "title": "Inkulinati",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/957960/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 251514
         },
         {
           "id": "the-riftbreaker",
-          "title": "The Riftbreaker"
+          "title": "The Riftbreaker",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/780310/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 300737
         },
         {
           "id": "empire-of-the-ants",
-          "title": "Empire of the Ants"
+          "title": "Empire of the Ants",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2287330/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 32338
         },
         {
           "id": "afterparty",
-          "title": "Afterparty"
+          "title": "Afterparty",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/762220/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58765
         },
         {
           "id": "flower",
-          "title": "Flower"
+          "title": "Flower",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/966330/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 5403
         },
         {
           "id": "oxenfree",
-          "title": "Oxenfree"
+          "title": "Oxenfree",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/388880/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 295
         },
         {
           "id": "dungeon-encounters",
-          "title": "Dungeon Encounters"
+          "title": "Dungeon Encounters",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1451080/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 678682
         },
         {
           "id": "voice-of-cards-the-isle-dragon-roars",
-          "title": "Voice of Cards: The Isle Dragon Roars"
+          "title": "Voice of Cards: The Isle Dragon Roars",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1113570/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 669261
         },
         {
           "id": "gran-turismo-sport",
-          "title": "Gran Turismo Sport"
+          "title": "Gran Turismo Sport",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/e98/e989eb7026737bbb7bd386c1d16a5735.jpg",
+          "coverType": "art",
+          "rawgId": 24
         },
         {
           "id": "humanity",
-          "title": "Humanity"
+          "title": "Humanity",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1581480/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 376898
         },
         {
           "id": "for-the-king",
-          "title": "For the King"
+          "title": "For the King",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527230/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 11676
         },
         {
           "id": "moonlighter",
-          "title": "Moonlighter"
+          "title": "Moonlighter",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606150/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 22162
         },
         {
           "id": "mutant-year-zero",
-          "title": "Mutant Year Zero"
+          "title": "Mutant Year Zero",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/760060/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58921
         },
         {
           "id": "ratchet-and-clank",
-          "title": "Ratchet & Clank"
+          "title": "Ratchet & Clank",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/d30/d30ef0c7dd4878161b1f781e297ae6a0.jpg",
+          "coverType": "art",
+          "rawgId": 2553
         }
       ]
     },
@@ -823,131 +1399,227 @@
       "games": [
         {
           "id": "v-rising",
-          "title": "V Rising"
+          "title": "V Rising",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 602224
         },
         {
           "id": "detroit-become-human",
-          "title": "Detroit: Become Human"
+          "title": "Detroit: Become Human",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 29177
         },
         {
           "id": "superliminal",
-          "title": "Superliminal"
+          "title": "Superliminal",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1049410/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 327219
         },
         {
           "id": "horizon-zero-dawn",
-          "title": "Horizon Zero Dawn"
+          "title": "Horizon Zero Dawn",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 278
         },
         {
           "id": "ghost-of-tsushima",
-          "title": "Ghost of Tsushima"
+          "title": "Ghost of Tsushima",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58550
         },
         {
           "id": "jedi-survivor",
-          "title": "Jedi: Survivor"
+          "title": "Jedi: Survivor",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 793647
         },
         {
           "id": "horizon-forbidden-west",
-          "title": "Horizon Forbidden West"
+          "title": "Horizon Forbidden West",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 452642
         },
         {
           "id": "until-dawn",
-          "title": "Until Dawn"
+          "title": "Until Dawn",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/d64/d6443375f9971152866ea76bff97d6d6.jpg",
+          "coverType": "art",
+          "rawgId": 3209
         },
         {
           "id": "wolfenstein-ii-the-new-colossus",
-          "title": "Wolfenstein II: The New Colossus"
+          "title": "Wolfenstein II: The New Colossus",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/a0e/a0ef08621301a1eab5e04fa5c96978fa.jpeg",
+          "coverType": "art",
+          "rawgId": 28202
         },
         {
           "id": "spider-man",
-          "title": "Spider-Man"
+          "title": "Spider-Man",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58134
         },
         {
           "id": "the-division-2",
-          "title": "The Division 2"
+          "title": "The Division 2",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58754
         },
         {
           "id": "the-eternal-die",
-          "title": "The Eternal Die"
+          "title": "The Eternal Die",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2564520/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 1004662
         },
         {
           "id": "dredge",
-          "title": "Dredge"
+          "title": "Dredge",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 842402
         },
         {
           "id": "mass-effect-andromeda",
-          "title": "Mass Effect: Andromeda"
+          "title": "Mass Effect: Andromeda",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238000/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 137
         },
         {
           "id": "brotato",
-          "title": "Brotato"
+          "title": "Brotato",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 857690
         },
         {
           "id": "lost-in-random",
-          "title": "Lost in Random"
+          "title": "Lost in Random",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462570/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 455598
         },
         {
           "id": "tetris-effect",
-          "title": "Tetris Effect"
+          "title": "Tetris Effect",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/59d/59d568770eecc7b3f18fcedd314b68d3.jpg",
+          "coverType": "art",
+          "rawgId": 58818
         },
         {
           "id": "cocoon",
-          "title": "Cocoon"
+          "title": "Cocoon",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1497440/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 801623
         },
         {
           "id": "dragon-quest-xi",
-          "title": "Dragon Quest XI"
+          "title": "Dragon Quest XI",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742120/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58084
         },
         {
           "id": "endless-dungeon",
-          "title": "Endless Dungeon"
+          "title": "Endless Dungeon",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1485590/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 529816
         },
         {
           "id": "snowrunner",
-          "title": "SnowRunner"
+          "title": "SnowRunner",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465360/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 368952
         },
         {
           "id": "unravel",
-          "title": "Unravel"
+          "title": "Unravel",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225560/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2830
         },
         {
           "id": "a-way-out",
-          "title": "A Way Out"
+          "title": "A Way Out",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 50778
         },
         {
           "id": "days-gone",
-          "title": "Days Gone"
+          "title": "Days Gone",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 29338
         },
         {
           "id": "mad-max",
-          "title": "Mad Max"
+          "title": "Mad Max",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234140/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3191
         },
         {
           "id": "rogue-legacy",
-          "title": "Rogue Legacy"
+          "title": "Rogue Legacy",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/241600/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 3635
         },
         {
           "id": "shotgun-king",
-          "title": "Shotgun King"
+          "title": "Shotgun King",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1972440/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 783865
         },
         {
           "id": "unravel-two",
-          "title": "Unravel Two"
+          "title": "Unravel Two",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225570/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58735
         },
         {
           "id": "flow",
-          "title": "Flow"
+          "title": "Flow",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1453870/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 5424
         },
         {
           "id": "roguebook",
-          "title": "Roguebook"
+          "title": "Roguebook",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1076200/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 351003
         },
         {
           "id": "enter-the-gungeon",
-          "title": "Enter the Gungeon"
+          "title": "Enter the Gungeon",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311690/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2574
         },
         {
           "id": "maquette",
-          "title": "Maquette"
+          "title": "Maquette",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/762840/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 490123
         }
       ]
     },
@@ -958,27 +1630,45 @@
       "games": [
         {
           "id": "spider-man-miles-morales",
-          "title": "Spider-Man: Miles Morales"
+          "title": "Spider-Man: Miles Morales",
+          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/784/78457774ec8418273b4e23eb7db35147.jpg",
+          "coverType": "art",
+          "rawgId": 746966
         },
         {
           "id": "marvel-s-avengers",
-          "title": "Marvel's Avengers"
+          "title": "Marvel's Avengers",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/997070/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 58859
         },
         {
           "id": "no-man-s-sky",
-          "title": "No Man's Sky"
+          "title": "No Man's Sky",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 2093
         },
         {
           "id": "final-fantasy-xv",
-          "title": "Final Fantasy XV"
+          "title": "Final Fantasy XV",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/637650/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 750
         },
         {
           "id": "outriders",
-          "title": "Outriders"
+          "title": "Outriders",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/680420/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 327227
         },
         {
           "id": "rime",
-          "title": "Rime"
+          "title": "Rime",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493200/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 9744
         }
       ]
     }
@@ -986,39 +1676,66 @@
   "unranked": [
     {
       "id": "drop-duchy",
-      "title": "Drop Duchy"
+      "title": "Drop Duchy",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525310/library_600x900.jpg",
+      "coverType": "box",
+      "rawgId": 1002735
     },
     {
       "id": "unicorn-overlord",
-      "title": "Unicorn Overlord"
+      "title": "Unicorn Overlord",
+      "cover": "https://media.rawg.io/media/resize/640/-/screenshots/e4d/e4d2d9720f0962ca4f6a6dd02cef331e.jpeg",
+      "coverType": "art",
+      "rawgId": 967102
     },
     {
       "id": "skate-story",
-      "title": "Skate Story"
+      "title": "Skate Story",
+      "cover": "https://media.rawg.io/media/resize/640/-/games/53e/53e81bf358eceeae921de5bf2bc667c0.jpg",
+      "coverType": "art",
+      "rawgId": 455518
     },
     {
       "id": "nioh-3",
-      "title": "Nioh 3"
+      "title": "Nioh 3",
+      "cover": "https://media.rawg.io/media/resize/640/-/games/18f/18f1e09f98c9a0e822b616d68d73c956.jpg",
+      "coverType": "art",
+      "rawgId": 1010940
     },
     {
       "id": "cairn",
-      "title": "Cairn"
+      "title": "Cairn",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/library_600x900.jpg",
+      "coverType": "box",
+      "rawgId": 139102
     },
     {
       "id": "spider-man-2",
-      "title": "Spider-Man 2"
+      "title": "Spider-Man 2",
+      "cover": "https://media.rawg.io/media/resize/640/-/games/1cc/1cc86be85294d9d3cf2fc95d696ce819.jpg",
+      "coverType": "art",
+      "rawgId": 35325
     },
     {
       "id": "sword-of-the-sea",
-      "title": "Sword of the Sea"
+      "title": "Sword of the Sea",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/library_600x900.jpg",
+      "coverType": "box",
+      "rawgId": 961195
     },
     {
       "id": "saros",
-      "title": "Saros"
+      "title": "Saros",
+      "cover": "https://media.rawg.io/media/resize/640/-/games/be8/be86ee5cf3a427c784efec1661f9b194.jpg",
+      "coverType": "art",
+      "rawgId": 997551
     },
     {
       "id": "heekakyu",
-      "title": "Onimusha: Way of the Sword"
+      "title": "Onimusha: Way of the Sword",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
+      "coverType": "box",
+      "rawgId": 994600
     }
   ]
 }
