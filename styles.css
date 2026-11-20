@@ -434,13 +434,15 @@ body.exporting .tier.unranked { display: none; }
   line-height: .95;
   text-transform: uppercase;
   text-align: center;
-  padding: 3px 4px 4px;
-  height: calc(2 * .95em + 7px);
-  overflow: hidden;
-  overflow-wrap: anywhere;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+  padding: 4px 4px 5px;
+  /* grow to fill the card (cards in a row share the tallest height) and centre the name */
+  flex: 1 0 auto;
+  min-height: calc(2 * .95em + 9px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-wrap: break-word;
+  hyphens: auto;
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, .35);
 }
 
