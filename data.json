@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T14:09:19.449Z",
+  "updatedAt": "2026-11-20T14:09:37.154Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -1144,9 +1144,9 @@
         {
           "id": "lords-of-the-fallen",
           "title": "Lords of the Fallen",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/265300/library_600x900.jpg",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1501750/library_600x900.jpg",
           "coverType": "box",
-          "rawgId": 2047
+          "rawgId": 840776
         },
         {
           "id": "riders-republic",
