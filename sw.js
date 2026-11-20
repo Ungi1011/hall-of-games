@@ -1,6 +1,6 @@
 /* Hall of Games service worker: network-first, cache as offline fallback.
    GitHub API calls are never cached. */
-const CACHE = "hall-of-games-v2";
+const CACHE = "hall-of-games-v3";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "covers.js", "data.json", "manifest.json", "icons/icon-192.png"];
 const CDN_HOSTS = ["cdnjs.cloudflare.com", "fonts.googleapis.com", "fonts.gstatic.com"];
 
@@ -22,7 +22,7 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(req.url);
   if (url.origin !== location.origin && !CDN_HOSTS.includes(url.hostname)) return;
   e.respondWith(
-    fetch(req)
+    fetch(req, url.origin === location.origin ? { cache: "no-cache" } : undefined)
       .then((res) => {
         if (res.ok || res.type === "opaque") {
           const copy = res.clone();
