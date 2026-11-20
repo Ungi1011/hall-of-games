@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0b14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Hall of Games">
+  <title>Hall of Games</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="star" aria-hidden="true">★</span>
+      <h1>HALL OF GAMES</h1>
+      <span class="star" aria-hidden="true">★</span>
+    </div>
+    <div class="stats" id="stats"></div>
+    <button id="sync-status" class="sync-badge" data-state="off" title="Sync settings">
+      <span class="dot" aria-hidden="true"></span><span class="txt">LOCAL</span>
+    </button>
+    <div class="actions">
+      <input id="search" type="search" placeholder="SEARCH…" autocomplete="off" aria-label="Search games">
+      <button id="btn-undo" class="px-btn" disabled title="Undo (⌘Z)">◄ UNDO</button>
+      <button id="btn-add" class="px-btn primary">+ ADD</button>
+      <button id="btn-menu" class="px-btn">≡ MENU</button>
+    </div>
+  </header>
+
+  <main id="board" class="board" aria-live="polite"></main>
+
+  <footer class="hint">
+    <span class="desk">DRAG TO RANK · CLICK TO EDIT · ⌘Z UNDO</span>
+    <span class="touch">HOLD &amp; DRAG TO RANK · TAP TO EDIT</span>
+  </footer>
+
+  <!-- Add games -->
+  <dialog id="dlg-add" class="px-dialog">
+    <form method="dialog" id="form-add">
+      <h2>+ ADD GAMES</h2>
+      <label class="field">
+        <span>TITLE(S) — ONE PER LINE</span>
+        <textarea id="add-titles" rows="4" placeholder="e.g. Hollow Knight"></textarea>
+      </label>
+      <label class="field">
+        <span>PUT IN</span>
+        <select id="add-tier"></select>
+      </label>
+      <div class="dlg-actions">
+        <button type="button" class="px-btn" data-close>CANCEL</button>
+        <button type="submit" class="px-btn primary">ADD ▶</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Edit game -->
+  <dialog id="dlg-edit" class="px-dialog">
+    <form method="dialog" id="form-edit">
+      <h2>EDIT GAME</h2>
+      <div class="edit-preview" id="edit-preview"></div>
+      <label class="field">
+        <span>TITLE</span>
+        <input id="edit-title" type="text" required>
+      </label>
+      <label class="field">
+        <span>COVER IMAGE URL (OPTIONAL)</span>
+        <input id="edit-cover" type="url" placeholder="https://…">
+      </label>
+      <label class="field">
+        <span>TIER</span>
+        <select id="edit-tier"></select>
+      </label>
+      <div class="dlg-actions">
+        <button type="button" class="px-btn danger" id="btn-delete">✕ DELETE</button>
+        <span class="spacer"></span>
+        <button type="button" class="px-btn" data-close>CANCEL</button>
+        <button type="submit" class="px-btn primary">SAVE</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Menu -->
+  <dialog id="dlg-menu" class="px-dialog">
+    <h2>≡ MENU</h2>
+    <div class="menu-list">
+      <button class="px-btn" data-action="sync">☁ SYNC SETTINGS</button>
+      <button class="px-btn" data-action="tiers">⚙ MANAGE TIERS</button>
+      <button class="px-btn" data-action="png">▣ EXPORT AS IMAGE</button>
+      <button class="px-btn" data-action="export">⬇ DOWNLOAD BACKUP</button>
+      <button class="px-btn" data-action="import">⬆ RESTORE BACKUP</button>
+      <button class="px-btn danger" data-action="reset">↺ RESET TO ORIGINAL IMPORT</button>
+    </div>
+    <div class="dlg-actions">
+      <button type="button" class="px-btn" data-close>CLOSE</button>
+    </div>
+    <input type="file" id="file-import" accept="application/json,.json" hidden>
+  </dialog>
+
+  <!-- Manage tiers -->
+  <dialog id="dlg-tiers" class="px-dialog wide">
+    <h2>⚙ MANAGE TIERS</h2>
+    <div id="tier-rows" class="tier-rows"></div>
+    <div class="dlg-actions">
+      <button type="button" class="px-btn" id="btn-add-tier">+ NEW TIER</button>
+      <span class="spacer"></span>
+      <button type="button" class="px-btn primary" data-close>DONE</button>
+    </div>
+  </dialog>
+
+  <!-- Sync settings -->
+  <dialog id="dlg-sync" class="px-dialog">
+    <form id="form-sync">
+      <h2>☁ SYNC</h2>
+      <p class="note">YOUR LIST IS SAVED TO <b>data.json</b> IN YOUR GITHUB REPO, SO EVERY DEVICE SHARES IT.</p>
+      <label class="field">
+        <span>REPOSITORY</span>
+        <input id="sync-repo" type="text" placeholder="username/hall-of-games" autocomplete="off" autocapitalize="off" spellcheck="false">
+      </label>
+      <label class="field">
+        <span>ACCESS TOKEN</span>
+        <input id="sync-token" type="password" autocomplete="off" autocapitalize="off" spellcheck="false">
+      </label>
+      <p class="note" id="sync-info"></p>
+      <div class="dlg-actions">
+        <button type="button" class="px-btn danger" id="btn-disconnect" hidden>DISCONNECT</button>
+        <span class="spacer"></span>
+        <button type="button" class="px-btn" data-close>CANCEL</button>
+        <button type="submit" class="px-btn primary" id="btn-connect">CONNECT</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.2/Sortable.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

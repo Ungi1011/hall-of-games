@@ -1,0 +1,1020 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-20T12:58:16+00:00",
+  "tiers": [
+    {
+      "id": "rushmore",
+      "name": "MOUNT RUSHMORE",
+      "theme": "rushmore",
+      "games": [
+        {
+          "id": "outer-wilds",
+          "title": "Outer Wilds"
+        },
+        {
+          "id": "the-last-of-us",
+          "title": "The Last of Us"
+        },
+        {
+          "id": "bloodborne",
+          "title": "Bloodborne"
+        },
+        {
+          "id": "disco-elysium",
+          "title": "Disco Elysium"
+        }
+      ]
+    },
+    {
+      "id": "diamond",
+      "name": "DIAMOND",
+      "theme": "diamond",
+      "games": [
+        {
+          "id": "hades",
+          "title": "Hades"
+        },
+        {
+          "id": "nier-automata",
+          "title": "NieR: Automata"
+        },
+        {
+          "id": "hollow-knight-silksong",
+          "title": "Hollow Knight: Silksong"
+        },
+        {
+          "id": "hollow-knight",
+          "title": "Hollow Knight"
+        },
+        {
+          "id": "slay-the-spire",
+          "title": "Slay the Spire"
+        },
+        {
+          "id": "returnal",
+          "title": "Returnal"
+        },
+        {
+          "id": "sekiro-shadows-die-twice",
+          "title": "Sekiro: Shadows Die Twice"
+        },
+        {
+          "id": "baldur-s-gate-3",
+          "title": "Baldur's Gate 3"
+        },
+        {
+          "id": "shadow-of-the-colossus",
+          "title": "Shadow of the Colossus"
+        },
+        {
+          "id": "clair-obscur-expedition-33",
+          "title": "Clair Obscur: Expedition 33"
+        },
+        {
+          "id": "death-stranding",
+          "title": "Death Stranding"
+        },
+        {
+          "id": "the-witness",
+          "title": "The Witness"
+        },
+        {
+          "id": "monster-hunter-world",
+          "title": "Monster Hunter: World"
+        },
+        {
+          "id": "god-of-war-iii",
+          "title": "God of War III"
+        },
+        {
+          "id": "metaphor-refantazio",
+          "title": "Metaphor: ReFantazio"
+        },
+        {
+          "id": "yakuza-0",
+          "title": "Yakuza 0"
+        },
+        {
+          "id": "dark-souls",
+          "title": "Dark Souls"
+        },
+        {
+          "id": "darkest-dungeon",
+          "title": "Darkest Dungeon"
+        },
+        {
+          "id": "nier-replicant",
+          "title": "NieR Replicant"
+        },
+        {
+          "id": "persona-5",
+          "title": "Persona 5"
+        },
+        {
+          "id": "nioh-2",
+          "title": "Nioh 2"
+        },
+        {
+          "id": "balatro",
+          "title": "Balatro"
+        },
+        {
+          "id": "batman-arkham-asylum",
+          "title": "Batman: Arkham Asylum"
+        },
+        {
+          "id": "bayonetta",
+          "title": "Bayonetta"
+        },
+        {
+          "id": "risk-of-rain-2",
+          "title": "Risk of Rain 2"
+        },
+        {
+          "id": "celeste",
+          "title": "Celeste"
+        },
+        {
+          "id": "fez",
+          "title": "Fez"
+        },
+        {
+          "id": "pyre",
+          "title": "Pyre"
+        },
+        {
+          "id": "journey",
+          "title": "Journey"
+        },
+        {
+          "id": "furi",
+          "title": "Furi"
+        },
+        {
+          "id": "frostpunk",
+          "title": "Frostpunk"
+        },
+        {
+          "id": "inscryption",
+          "title": "Inscryption"
+        }
+      ]
+    },
+    {
+      "id": "platinum",
+      "name": "PLATINUM",
+      "theme": "platinum",
+      "games": [
+        {
+          "id": "elden-ring",
+          "title": "Elden Ring"
+        },
+        {
+          "id": "control",
+          "title": "Control"
+        },
+        {
+          "id": "death-stranding-2",
+          "title": "Death Stranding 2"
+        },
+        {
+          "id": "cyberpunk-2077",
+          "title": "Cyberpunk 2077"
+        },
+        {
+          "id": "uncharted-4",
+          "title": "Uncharted 4"
+        },
+        {
+          "id": "the-last-guardian",
+          "title": "The Last Guardian"
+        },
+        {
+          "id": "tunic",
+          "title": "Tunic"
+        },
+        {
+          "id": "hotline-miami",
+          "title": "Hotline Miami"
+        },
+        {
+          "id": "katamari-damacy",
+          "title": "Katamari Damacy"
+        },
+        {
+          "id": "god-of-war-ii",
+          "title": "God of War II"
+        },
+        {
+          "id": "god-of-war",
+          "title": "God of War"
+        },
+        {
+          "id": "divinity-original-sin-2",
+          "title": "Divinity: Original Sin 2"
+        },
+        {
+          "id": "diablo-ii",
+          "title": "Diablo II"
+        },
+        {
+          "id": "gta-san-andreas",
+          "title": "GTA: San Andreas"
+        },
+        {
+          "id": "noita",
+          "title": "Noita"
+        },
+        {
+          "id": "return-of-the-obra-dinn",
+          "title": "Return of the Obra Dinn"
+        },
+        {
+          "id": "blue-prince",
+          "title": "Blue Prince"
+        },
+        {
+          "id": "pentiment",
+          "title": "Pentiment"
+        },
+        {
+          "id": "papers-please",
+          "title": "Papers, Please"
+        },
+        {
+          "id": "devil-may-cry-5",
+          "title": "Devil May Cry 5"
+        },
+        {
+          "id": "inside",
+          "title": "Inside"
+        },
+        {
+          "id": "limbo",
+          "title": "Limbo"
+        },
+        {
+          "id": "nioh",
+          "title": "Nioh"
+        },
+        {
+          "id": "okami",
+          "title": "Okami"
+        },
+        {
+          "id": "cuphead",
+          "title": "Cuphead"
+        },
+        {
+          "id": "helldivers-2",
+          "title": "Helldivers 2"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "title": "Red Dead Redemption 2"
+        },
+        {
+          "id": "armored-core-vi",
+          "title": "Armored Core VI"
+        }
+      ]
+    },
+    {
+      "id": "gold",
+      "name": "GOLD",
+      "theme": "gold",
+      "games": [
+        {
+          "id": "batman-arkham-knight",
+          "title": "Batman: Arkham Knight"
+        },
+        {
+          "id": "the-wonderful-101",
+          "title": "The Wonderful 101"
+        },
+        {
+          "id": "transistor",
+          "title": "Transistor"
+        },
+        {
+          "id": "bastion",
+          "title": "Bastion"
+        },
+        {
+          "id": "monster-hunter-wilds",
+          "title": "Monster Hunter Wilds"
+        },
+        {
+          "id": "yakuza-kiwami",
+          "title": "Yakuza Kiwami"
+        },
+        {
+          "id": "demon-s-souls",
+          "title": "Demon's Souls"
+        },
+        {
+          "id": "black-myth-wukong",
+          "title": "Black Myth: Wukong"
+        },
+        {
+          "id": "uncharted-3",
+          "title": "Uncharted 3"
+        },
+        {
+          "id": "uncharted-2",
+          "title": "Uncharted 2"
+        },
+        {
+          "id": "final-fantasy-xvi",
+          "title": "Final Fantasy XVI"
+        },
+        {
+          "id": "ico",
+          "title": "Ico"
+        },
+        {
+          "id": "like-a-dragon",
+          "title": "Like a Dragon"
+        },
+        {
+          "id": "hellblade-senua-s-sacrifice",
+          "title": "Hellblade: Senua's Sacrifice"
+        },
+        {
+          "id": "sifu",
+          "title": "Sifu"
+        },
+        {
+          "id": "catherine",
+          "title": "Catherine"
+        },
+        {
+          "id": "yakuza-kiwami-2",
+          "title": "Yakuza Kiwami 2"
+        },
+        {
+          "id": "ghostrunner",
+          "title": "Ghostrunner"
+        },
+        {
+          "id": "super-meat-boy",
+          "title": "Super Meat Boy"
+        },
+        {
+          "id": "the-walking-dead-season-1",
+          "title": "The Walking Dead: Season 1"
+        },
+        {
+          "id": "max-payne",
+          "title": "Max Payne"
+        },
+        {
+          "id": "wolfenstein-the-old-blood",
+          "title": "Wolfenstein: The Old Blood"
+        },
+        {
+          "id": "neon-white",
+          "title": "Neon White"
+        },
+        {
+          "id": "tactics-ogre-reborn",
+          "title": "Tactics Ogre: Reborn"
+        },
+        {
+          "id": "dragon-s-dogma",
+          "title": "Dragon's Dogma"
+        },
+        {
+          "id": "risk-of-rain",
+          "title": "Risk of Rain"
+        },
+        {
+          "id": "thumper",
+          "title": "Thumper"
+        },
+        {
+          "id": "like-a-dragon-ishin",
+          "title": "Like a Dragon: Ishin!"
+        },
+        {
+          "id": "prey",
+          "title": "Prey"
+        },
+        {
+          "id": "danganronpa",
+          "title": "Danganronpa"
+        },
+        {
+          "id": "the-binding-of-isaac",
+          "title": "The Binding of Isaac"
+        },
+        {
+          "id": "braid",
+          "title": "Braid"
+        },
+        {
+          "id": "the-talos-principle",
+          "title": "The Talos Principle"
+        },
+        {
+          "id": "what-remains-of-edith-finch",
+          "title": "What Remains of Edith Finch"
+        },
+        {
+          "id": "olliolli-world",
+          "title": "OlliOlli World"
+        },
+        {
+          "id": "metrico",
+          "title": "Metrico+"
+        },
+        {
+          "id": "loot-river",
+          "title": "Loot River"
+        },
+        {
+          "id": "dead-cells",
+          "title": "Dead Cells"
+        },
+        {
+          "id": "manifold-garden",
+          "title": "Manifold Garden"
+        },
+        {
+          "id": "golf-club-wasteland",
+          "title": "Golf Club: Wasteland"
+        },
+        {
+          "id": "crypt-of-the-necrodancer",
+          "title": "Crypt of the NecroDancer"
+        },
+        {
+          "id": "hotline-miami-2",
+          "title": "Hotline Miami 2"
+        },
+        {
+          "id": "gorogoa",
+          "title": "Gorogoa"
+        },
+        {
+          "id": "patapon",
+          "title": "Patapon"
+        },
+        {
+          "id": "doom",
+          "title": "Doom"
+        }
+      ]
+    },
+    {
+      "id": "silver",
+      "name": "SILVER",
+      "theme": "silver",
+      "games": [
+        {
+          "id": "pillars-of-eternity-ii",
+          "title": "Pillars of Eternity II"
+        },
+        {
+          "id": "heavy-rain",
+          "title": "Heavy Rain"
+        },
+        {
+          "id": "wo-long-fallen-dynasty",
+          "title": "Wo Long: Fallen Dynasty"
+        },
+        {
+          "id": "pathfinder",
+          "title": "Pathfinder"
+        },
+        {
+          "id": "doom-the-dark-ages",
+          "title": "Doom: The Dark Ages"
+        },
+        {
+          "id": "space-marine-2",
+          "title": "Space Marine 2"
+        },
+        {
+          "id": "age-of-mythology",
+          "title": "Age of Mythology"
+        },
+        {
+          "id": "batman-arkham-city",
+          "title": "Batman: Arkham City"
+        },
+        {
+          "id": "darkest-dungeon-ii",
+          "title": "Darkest Dungeon II"
+        },
+        {
+          "id": "elden-ring-nightreign",
+          "title": "Elden Ring Nightreign"
+        },
+        {
+          "id": "stellar-blade",
+          "title": "Stellar Blade"
+        },
+        {
+          "id": "death-s-door",
+          "title": "Death's Door"
+        },
+        {
+          "id": "uncharted",
+          "title": "Uncharted"
+        },
+        {
+          "id": "olliolli-2",
+          "title": "OlliOlli 2"
+        },
+        {
+          "id": "wolfenstein-the-new-order",
+          "title": "Wolfenstein: The New Order"
+        },
+        {
+          "id": "pillars-of-eternity",
+          "title": "Pillars of Eternity"
+        },
+        {
+          "id": "yakuza-3",
+          "title": "Yakuza 3"
+        },
+        {
+          "id": "mark-of-the-ninja",
+          "title": "Mark of the Ninja"
+        },
+        {
+          "id": "bloodstained-ritual-of-the-night",
+          "title": "Bloodstained: Ritual of the Night"
+        },
+        {
+          "id": "superhot",
+          "title": "Superhot"
+        },
+        {
+          "id": "tomb-raider",
+          "title": "Tomb Raider"
+        },
+        {
+          "id": "vagante",
+          "title": "Vagante"
+        },
+        {
+          "id": "the-rogue-prince-of-persia",
+          "title": "The Rogue Prince of Persia"
+        },
+        {
+          "id": "peggle",
+          "title": "Peggle"
+        },
+        {
+          "id": "peggle-2",
+          "title": "Peggle 2"
+        },
+        {
+          "id": "dome-keeper",
+          "title": "Dome Keeper"
+        },
+        {
+          "id": "mirror-s-edge",
+          "title": "Mirror's Edge"
+        },
+        {
+          "id": "tales-from-the-borderlands",
+          "title": "Tales from the Borderlands"
+        },
+        {
+          "id": "batman-the-telltale-series",
+          "title": "Batman: The Telltale Series"
+        },
+        {
+          "id": "gone-home",
+          "title": "Gone Home"
+        },
+        {
+          "id": "everybody-s-gone-to-the-rapture",
+          "title": "Everybody's Gone to the Rapture"
+        },
+        {
+          "id": "the-wolf-among-us",
+          "title": "The Wolf Among Us"
+        },
+        {
+          "id": "death-squared",
+          "title": "Death Squared"
+        },
+        {
+          "id": "lonely-mountains-downhill",
+          "title": "Lonely Mountains: Downhill"
+        },
+        {
+          "id": "curse-of-the-dead-gods",
+          "title": "Curse of the Dead Gods"
+        },
+        {
+          "id": "gran-turismo-7",
+          "title": "Gran Turismo 7"
+        }
+      ]
+    },
+    {
+      "id": "bronze",
+      "name": "BRONZE",
+      "theme": "bronze",
+      "games": [
+        {
+          "id": "god-of-war-ragnarok",
+          "title": "God of War Ragnarök"
+        },
+        {
+          "id": "god-of-war-2018",
+          "title": "God of War (2018)"
+        },
+        {
+          "id": "dragon-s-dogma-2",
+          "title": "Dragon's Dogma 2"
+        },
+        {
+          "id": "jedi-fallen-order",
+          "title": "Jedi: Fallen Order"
+        },
+        {
+          "id": "path-of-exile-2",
+          "title": "Path of Exile 2"
+        },
+        {
+          "id": "monster-hunter-rise",
+          "title": "Monster Hunter Rise"
+        },
+        {
+          "id": "uncharted-the-lost-legacy",
+          "title": "Uncharted: The Lost Legacy"
+        },
+        {
+          "id": "shadow-of-the-tomb-raider",
+          "title": "Shadow of the Tomb Raider"
+        },
+        {
+          "id": "rise-of-the-tomb-raider",
+          "title": "Rise of the Tomb Raider"
+        },
+        {
+          "id": "deep-rock-galactic",
+          "title": "Deep Rock Galactic"
+        },
+        {
+          "id": "batman-arkham-origins",
+          "title": "Batman: Arkham Origins"
+        },
+        {
+          "id": "diablo-iv",
+          "title": "Diablo IV"
+        },
+        {
+          "id": "lords-of-the-fallen",
+          "title": "Lords of the Fallen"
+        },
+        {
+          "id": "riders-republic",
+          "title": "Riders Republic"
+        },
+        {
+          "id": "gta-v",
+          "title": "GTA V"
+        },
+        {
+          "id": "beyond-two-souls",
+          "title": "Beyond: Two Souls"
+        },
+        {
+          "id": "ni-no-kuni-ii",
+          "title": "Ni no Kuni II"
+        },
+        {
+          "id": "viewfinder",
+          "title": "Viewfinder"
+        },
+        {
+          "id": "chants-of-sennaar",
+          "title": "Chants of Sennaar"
+        },
+        {
+          "id": "steep",
+          "title": "Steep"
+        },
+        {
+          "id": "weird-west",
+          "title": "Weird West"
+        },
+        {
+          "id": "dave-the-diver",
+          "title": "Dave the Diver"
+        },
+        {
+          "id": "judgment",
+          "title": "Judgment"
+        },
+        {
+          "id": "absolver",
+          "title": "Absolver"
+        },
+        {
+          "id": "it-takes-two",
+          "title": "It Takes Two"
+        },
+        {
+          "id": "children-of-morta",
+          "title": "Children of Morta"
+        },
+        {
+          "id": "jusant",
+          "title": "Jusant"
+        },
+        {
+          "id": "guardians-of-the-galaxy",
+          "title": "Guardians of the Galaxy"
+        },
+        {
+          "id": "the-pedestrian",
+          "title": "The Pedestrian"
+        },
+        {
+          "id": "ruined-king",
+          "title": "Ruined King"
+        },
+        {
+          "id": "nobody-saves-the-world",
+          "title": "Nobody Saves the World"
+        },
+        {
+          "id": "cult-of-the-lamb",
+          "title": "Cult of the Lamb"
+        },
+        {
+          "id": "tails-of-iron",
+          "title": "Tails of Iron"
+        },
+        {
+          "id": "ratchet-and-clank-rift-apart",
+          "title": "Ratchet & Clank: Rift Apart"
+        },
+        {
+          "id": "inkulinati",
+          "title": "Inkulinati"
+        },
+        {
+          "id": "the-riftbreaker",
+          "title": "The Riftbreaker"
+        },
+        {
+          "id": "empire-of-the-ants",
+          "title": "Empire of the Ants"
+        },
+        {
+          "id": "afterparty",
+          "title": "Afterparty"
+        },
+        {
+          "id": "flower",
+          "title": "Flower"
+        },
+        {
+          "id": "oxenfree",
+          "title": "Oxenfree"
+        },
+        {
+          "id": "dungeon-encounters",
+          "title": "Dungeon Encounters"
+        },
+        {
+          "id": "voice-of-cards-the-isle-dragon-roars",
+          "title": "Voice of Cards: The Isle Dragon Roars"
+        },
+        {
+          "id": "gran-turismo-sport",
+          "title": "Gran Turismo Sport"
+        },
+        {
+          "id": "humanity",
+          "title": "Humanity"
+        },
+        {
+          "id": "for-the-king",
+          "title": "For the King"
+        },
+        {
+          "id": "moonlighter",
+          "title": "Moonlighter"
+        },
+        {
+          "id": "mutant-year-zero",
+          "title": "Mutant Year Zero"
+        },
+        {
+          "id": "ratchet-and-clank",
+          "title": "Ratchet & Clank"
+        }
+      ]
+    },
+    {
+      "id": "stone",
+      "name": "STONE",
+      "theme": "stone",
+      "games": [
+        {
+          "id": "v-rising",
+          "title": "V Rising"
+        },
+        {
+          "id": "detroit-become-human",
+          "title": "Detroit: Become Human"
+        },
+        {
+          "id": "superliminal",
+          "title": "Superliminal"
+        },
+        {
+          "id": "horizon-zero-dawn",
+          "title": "Horizon Zero Dawn"
+        },
+        {
+          "id": "ghost-of-tsushima",
+          "title": "Ghost of Tsushima"
+        },
+        {
+          "id": "jedi-survivor",
+          "title": "Jedi: Survivor"
+        },
+        {
+          "id": "horizon-forbidden-west",
+          "title": "Horizon Forbidden West"
+        },
+        {
+          "id": "until-dawn",
+          "title": "Until Dawn"
+        },
+        {
+          "id": "wolfenstein-ii-the-new-colossus",
+          "title": "Wolfenstein II: The New Colossus"
+        },
+        {
+          "id": "spider-man",
+          "title": "Spider-Man"
+        },
+        {
+          "id": "the-division-2",
+          "title": "The Division 2"
+        },
+        {
+          "id": "the-eternal-die",
+          "title": "The Eternal Die"
+        },
+        {
+          "id": "dredge",
+          "title": "Dredge"
+        },
+        {
+          "id": "mass-effect-andromeda",
+          "title": "Mass Effect: Andromeda"
+        },
+        {
+          "id": "brotato",
+          "title": "Brotato"
+        },
+        {
+          "id": "lost-in-random",
+          "title": "Lost in Random"
+        },
+        {
+          "id": "tetris-effect",
+          "title": "Tetris Effect"
+        },
+        {
+          "id": "cocoon",
+          "title": "Cocoon"
+        },
+        {
+          "id": "dragon-quest-xi",
+          "title": "Dragon Quest XI"
+        },
+        {
+          "id": "endless-dungeon",
+          "title": "Endless Dungeon"
+        },
+        {
+          "id": "snowrunner",
+          "title": "SnowRunner"
+        },
+        {
+          "id": "unravel",
+          "title": "Unravel"
+        },
+        {
+          "id": "a-way-out",
+          "title": "A Way Out"
+        },
+        {
+          "id": "days-gone",
+          "title": "Days Gone"
+        },
+        {
+          "id": "mad-max",
+          "title": "Mad Max"
+        },
+        {
+          "id": "rogue-legacy",
+          "title": "Rogue Legacy"
+        },
+        {
+          "id": "shotgun-king",
+          "title": "Shotgun King"
+        },
+        {
+          "id": "unravel-two",
+          "title": "Unravel Two"
+        },
+        {
+          "id": "flow",
+          "title": "Flow"
+        },
+        {
+          "id": "roguebook",
+          "title": "Roguebook"
+        },
+        {
+          "id": "enter-the-gungeon",
+          "title": "Enter the Gungeon"
+        },
+        {
+          "id": "maquette",
+          "title": "Maquette"
+        }
+      ]
+    },
+    {
+      "id": "garbage",
+      "name": "GARBAGE",
+      "theme": "garbage",
+      "games": [
+        {
+          "id": "spider-man-miles-morales",
+          "title": "Spider-Man: Miles Morales"
+        },
+        {
+          "id": "marvel-s-avengers",
+          "title": "Marvel's Avengers"
+        },
+        {
+          "id": "no-man-s-sky",
+          "title": "No Man's Sky"
+        },
+        {
+          "id": "final-fantasy-xv",
+          "title": "Final Fantasy XV"
+        },
+        {
+          "id": "outriders",
+          "title": "Outriders"
+        },
+        {
+          "id": "rime",
+          "title": "Rime"
+        }
+      ]
+    }
+  ],
+  "unranked": [
+    {
+      "id": "drop-duchy",
+      "title": "Drop Duchy"
+    },
+    {
+      "id": "unicorn-overlord",
+      "title": "Unicorn Overlord"
+    },
+    {
+      "id": "skate-story",
+      "title": "Skate Story"
+    },
+    {
+      "id": "nioh-3",
+      "title": "Nioh 3"
+    },
+    {
+      "id": "cairn",
+      "title": "Cairn"
+    },
+    {
+      "id": "spider-man-2",
+      "title": "Spider-Man 2"
+    },
+    {
+      "id": "sword-of-the-sea",
+      "title": "Sword of the Sea"
+    },
+    {
+      "id": "saros",
+      "title": "Saros"
+    }
+  ]
+}
