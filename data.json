@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:56:11.846Z",
+  "updatedAt": "2026-11-20T22:56:29.256Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -832,6 +832,13 @@
           "cover": "https://media.rawg.io/media/resize/640/-/screenshots/e4d/e4d2d9720f0962ca4f6a6dd02cef331e.jpeg",
           "coverType": "art",
           "rawgId": 967102
+        },
+        {
+          "id": "the-rogue-prince-of-persia",
+          "title": "The Rogue Prince of Persia",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2717880/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 981792
         }
       ]
     },
@@ -993,13 +1000,6 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323220/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 12121
-        },
-        {
-          "id": "the-rogue-prince-of-persia",
-          "title": "The Rogue Prince of Persia",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2717880/library_600x900.jpg",
-          "coverType": "box",
-          "rawgId": 981792
         },
         {
           "id": "peggle",
