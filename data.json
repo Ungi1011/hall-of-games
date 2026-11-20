@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T23:00:07.271Z",
+  "updatedAt": "2026-11-20T23:00:20.297Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -176,18 +176,18 @@
           "rawgId": 326224
         },
         {
-          "id": "persona-5",
-          "title": "Persona 5",
-          "cover": "https://media.rawg.io/media/resize/640/-/games/3ea/3ea0e57ede873970c0f1130e30d88749.jpg",
-          "coverType": "art",
-          "rawgId": 49
-        },
-        {
           "id": "nioh-2",
           "title": "Nioh 2",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325200/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 58815
+        },
+        {
+          "id": "persona-5",
+          "title": "Persona 5",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/3ea/3ea0e57ede873970c0f1130e30d88749.jpg",
+          "coverType": "art",
+          "rawgId": 49
         },
         {
           "id": "balatro",
