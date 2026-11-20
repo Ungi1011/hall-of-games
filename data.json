@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:57:09.570Z",
+  "updatedAt": "2026-11-20T22:57:58.321Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -589,13 +589,6 @@
           "rawgId": 22513
         },
         {
-          "id": "final-fantasy-xvi",
-          "title": "Final Fantasy XVI",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/library_600x900.jpg",
-          "coverType": "box",
-          "rawgId": 494382
-        },
-        {
           "id": "ico",
           "title": "Ico",
           "cover": "https://media.rawg.io/media/resize/640/-/games/3ef/3ef0dc5bda761da51de4dcb170dcf32a.jpg",
@@ -1112,6 +1105,13 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525310/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 1002735
+        },
+        {
+          "id": "final-fantasy-xvi",
+          "title": "Final Fantasy XVI",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 494382
         }
       ]
     },
