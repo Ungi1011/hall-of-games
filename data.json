@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:59:14.587Z",
+  "updatedAt": "2026-11-20T22:59:51.833Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -239,6 +239,13 @@
           "rawgId": 27
         },
         {
+          "id": "skate-story",
+          "title": "Skate Story",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/53e/53e81bf358eceeae921de5bf2bc667c0.jpg",
+          "coverType": "art",
+          "rawgId": 455518
+        },
+        {
           "id": "journey",
           "title": "Journey",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638230/library_600x900.jpg",
@@ -265,13 +272,6 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 479694
-        },
-        {
-          "id": "skate-story",
-          "title": "Skate Story",
-          "cover": "https://media.rawg.io/media/resize/640/-/games/53e/53e81bf358eceeae921de5bf2bc667c0.jpg",
-          "coverType": "art",
-          "rawgId": 455518
         },
         {
           "id": "cairn",
