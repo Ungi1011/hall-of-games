@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T14:14:51.368Z",
+  "updatedAt": "2026-11-20T14:33:56.117Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -78,18 +78,18 @@
           "rawgId": 28121
         },
         {
-          "id": "returnal",
-          "title": "Returnal",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/library_600x900.jpg",
-          "coverType": "box",
-          "rawgId": 452639
-        },
-        {
           "id": "sekiro-shadows-die-twice",
           "title": "Sekiro: Shadows Die Twice",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 50734
+        },
+        {
+          "id": "returnal",
+          "title": "Returnal",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 452639
         },
         {
           "id": "baldur-s-gate-3",
