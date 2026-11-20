@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T13:06:36.427Z",
+  "updatedAt": "2026-11-20T12:58:16+00:00",
   "tiers": [
     {
       "id": "rushmore",
@@ -485,7 +485,7 @@
         },
         {
           "id": "pathfinder",
-          "title": "Pathfinder: Kingmaker"
+          "title": "Pathfinder"
         },
         {
           "id": "doom-the-dark-ages",
@@ -1015,10 +1015,6 @@
     {
       "id": "saros",
       "title": "Saros"
-    },
-    {
-      "id": "vgqb5fq6",
-      "title": "Onimusha: Way of the Sword"
     }
   ]
 }
