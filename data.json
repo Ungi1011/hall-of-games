@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T14:06:57.874Z",
+  "updatedAt": "2026-11-20T14:07:18.487Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -1715,9 +1715,9 @@
     {
       "id": "spider-man-2",
       "title": "Spider-Man 2",
-      "cover": "https://media.rawg.io/media/resize/640/-/games/1cc/1cc86be85294d9d3cf2fc95d696ce819.jpg",
-      "coverType": "art",
-      "rawgId": 35325
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/library_600x900.jpg",
+      "coverType": "box",
+      "rawgId": 989789
     },
     {
       "id": "sword-of-the-sea",
