@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T14:08:29.456Z",
+  "updatedAt": "2026-11-20T14:09:19.449Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -562,10 +562,10 @@
         },
         {
           "id": "like-a-dragon",
-          "title": "Like a Dragon",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/library_600x900.jpg",
+          "title": "Yakuza: Like a Dragon",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235140/library_600x900.jpg",
           "coverType": "box",
-          "rawgId": 962025
+          "rawgId": 369157
         },
         {
           "id": "hellblade-senua-s-sacrifice",
