@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T14:08:01.183Z",
+  "updatedAt": "2026-11-20T14:08:29.456Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -885,9 +885,9 @@
         {
           "id": "uncharted",
           "title": "Uncharted",
-          "cover": "https://media.rawg.io/media/resize/640/-/games/709/709bf81f874ce5d25d625b37b014cb63.jpg",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/b7f/b7ffc4c4776e61eca19d36d3c227f89a.jpg",
           "coverType": "art",
-          "rawgId": 2462
+          "rawgId": 4475
         },
         {
           "id": "olliolli-2",
