@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:53:32.221Z",
+  "updatedAt": "2026-11-20T22:53:38.546Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -1098,6 +1098,13 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525310/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 1002735
+        },
+        {
+          "id": "nioh-3",
+          "title": "Nioh 3",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/18f/18f1e09f98c9a0e822b616d68d73c956.jpg",
+          "coverType": "art",
+          "rawgId": 1010940
         }
       ]
     },
@@ -1732,13 +1739,5 @@
       ]
     }
   ],
-  "unranked": [
-    {
-      "id": "nioh-3",
-      "title": "Nioh 3",
-      "cover": "https://media.rawg.io/media/resize/640/-/games/18f/18f1e09f98c9a0e822b616d68d73c956.jpg",
-      "coverType": "art",
-      "rawgId": 1010940
-    }
-  ]
+  "unranked": []
 }
