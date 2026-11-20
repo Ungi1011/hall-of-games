@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T12:58:16+00:00",
+  "updatedAt": "2026-11-20T13:38:30.103Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -1015,6 +1015,10 @@
     {
       "id": "saros",
       "title": "Saros"
+    },
+    {
+      "id": "heekakyu",
+      "title": "Onimusha: Way of the Sword"
     }
   ]
 }
