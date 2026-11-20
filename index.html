@@ -71,10 +71,15 @@
         <span>TITLE</span>
         <input id="edit-title" type="text" required>
       </label>
-      <label class="field">
-        <span>COVER IMAGE URL (OPTIONAL)</span>
-        <input id="edit-cover" type="url" placeholder="https://…">
-      </label>
+      <div class="field">
+        <span>COVER ART</span>
+        <div class="cover-btns">
+          <button type="button" class="px-btn" id="btn-find-cover">▣ FIND COVER</button>
+          <button type="button" class="px-btn" id="btn-remove-cover">✕ NO COVER</button>
+        </div>
+        <div id="cover-results" class="cover-results" hidden></div>
+        <input id="edit-cover" type="url" placeholder="…OR PASTE AN IMAGE URL" aria-label="Cover image URL">
+      </div>
       <label class="field">
         <span>TIER</span>
         <select id="edit-tier"></select>
@@ -93,6 +98,7 @@
     <h2>≡ MENU</h2>
     <div class="menu-list">
       <button class="px-btn" data-action="sync">☁ SYNC SETTINGS</button>
+      <button class="px-btn" data-action="covers">▣ COVER ART</button>
       <button class="px-btn" data-action="tiers">⚙ MANAGE TIERS</button>
       <button class="px-btn" data-action="png">▣ EXPORT AS IMAGE</button>
       <button class="px-btn" data-action="export">⬇ DOWNLOAD BACKUP</button>
@@ -114,6 +120,24 @@
       <span class="spacer"></span>
       <button type="button" class="px-btn primary" data-close>DONE</button>
     </div>
+  </dialog>
+
+  <!-- Cover art -->
+  <dialog id="dlg-covers" class="px-dialog">
+    <form id="form-covers">
+      <h2>▣ COVER ART</h2>
+      <p class="note">COVERS COME FROM <b>RAWG</b> + <b>STEAM</b>. THE API KEY STAYS ON THIS DEVICE ONLY. NEW GAMES GET A COVER AUTOMATICALLY.</p>
+      <label class="field">
+        <span>RAWG API KEY</span>
+        <input id="rawg-key" type="password" autocomplete="off" autocapitalize="off" spellcheck="false">
+      </label>
+      <p class="note" id="covers-info"></p>
+      <div class="dlg-actions">
+        <span class="spacer"></span>
+        <button type="button" class="px-btn" data-close>CLOSE</button>
+        <button type="submit" class="px-btn primary" id="btn-fetch-covers">FETCH MISSING COVERS</button>
+      </div>
+    </form>
   </dialog>
 
   <!-- Sync settings -->
@@ -142,6 +166,7 @@
   <div id="toast" class="toast" role="status"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.2/Sortable.min.js"></script>
+  <script src="covers.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

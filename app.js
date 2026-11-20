@@ -39,6 +39,9 @@
   let dragSnapshot = null;
   let lastDragEnd = 0;
   let editingId = null;
+  let editCover = null;      // cover chosen in the edit dialog: { cover, coverType, rawgId }
+  let editNoCover = false;   // user explicitly removed the cover
+  let coverJob = null;       // running batch cover fetch
 
   // ---------- helpers ----------
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -168,7 +171,7 @@
   // ---------- rendering ----------
   function cardEl(game) {
     const card = el("div", {
-      class: "card" + (game.cover ? " has-cover" : ""),
+      class: "card" + (game.cover ? ` has-cover cover-${game.coverType === "art" ? "art" : "box"}` : ""),
       dataset: { id: game.id },
       title: game.title,
       style: `--hue:${hueFor(game.title)}`,
@@ -177,7 +180,7 @@
     });
     if (game.cover) {
       const img = el("img", { src: game.cover, alt: "", loading: "lazy", decoding: "async", referrerpolicy: "no-referrer" });
-      img.addEventListener("error", () => { card.classList.remove("has-cover"); img.remove(); });
+      img.addEventListener("error", () => { card.classList.remove("has-cover", "cover-box", "cover-art"); img.remove(); });
       card.append(img);
     }
     card.append(el("span", { class: "card-title" }, game.title));
@@ -324,6 +327,7 @@
     $("#dlg-add").close();
     toast(`+ ADDED ${games.length} GAME${games.length > 1 ? "S" : ""}`);
     flash(games.map((g) => g.id));
+    if (Covers.getKey()) fetchCovers(games.map((g) => g.id), { quiet: true });
   }
 
   // ---------- edit dialog ----------
@@ -333,6 +337,12 @@
     editingId = id;
     $("#edit-title").value = found.game.title;
     $("#edit-cover").value = found.game.cover || "";
+    editCover = found.game.cover
+      ? { cover: found.game.cover, coverType: found.game.coverType, rawgId: found.game.rawgId }
+      : null;
+    editNoCover = !!found.game.noCover;
+    $("#cover-results").hidden = true;
+    $("#cover-results").replaceChildren();
     fillTierSelect($("#edit-tier"), found.listId);
     updateEditPreview();
     $("#dlg-edit").showModal();
@@ -341,7 +351,52 @@
   function updateEditPreview() {
     const title = $("#edit-title").value.trim() || "Untitled";
     const cover = $("#edit-cover").value.trim();
-    $("#edit-preview").replaceChildren(cardEl({ id: "preview", title, cover: cover || undefined }));
+    const coverType = editCover && editCover.cover === cover ? editCover.coverType : "box";
+    $("#edit-preview").replaceChildren(cardEl({ id: "preview", title, cover: cover || undefined, coverType }));
+  }
+
+  async function findCoverOptions() {
+    const box = $("#cover-results");
+    if (!Covers.getKey()) {
+      toast("ADD YOUR RAWG KEY FIRST: MENU → COVER ART", 4000);
+      return;
+    }
+    const title = $("#edit-title").value.trim();
+    if (!title) return $("#edit-title").focus();
+    box.hidden = false;
+    box.replaceChildren(el("div", { class: "msg" }, "SEARCHING…"));
+    try {
+      const opts = await Covers.options(title);
+      if (!opts.length) return box.replaceChildren(el("div", { class: "msg" }, "NOTHING FOUND — TRY ANOTHER SPELLING OR PASTE A URL"));
+      box.replaceChildren(...opts.map((o) => {
+        const btn = el("button", { type: "button", class: "cover-opt", title: o.name },
+          o.thumb ? el("img", { src: o.thumb, alt: "", loading: "lazy", referrerpolicy: "no-referrer" }) : el("img", { alt: "" }),
+          el("span", { class: "nm" }, o.name, " ", el("span", { class: "yr" }, o.year || "")),
+        );
+        btn.addEventListener("click", async () => {
+          btn.classList.add("busy");
+          const r = await Covers.resolve(o.game).catch(() => null);
+          btn.classList.remove("busy");
+          if (!r) return toast("⚠ NO IMAGE FOR THAT ONE", 3000);
+          editCover = r;
+          editNoCover = false;
+          $("#edit-cover").value = r.cover;
+          box.hidden = true;
+          updateEditPreview();
+        });
+        return btn;
+      }));
+    } catch (e) {
+      box.replaceChildren(el("div", { class: "msg" }, e.status === 401 ? "RAWG REJECTED THE API KEY" : "COULD NOT REACH RAWG"));
+    }
+  }
+
+  function removeEditCover() {
+    $("#edit-cover").value = "";
+    editCover = null;
+    editNoCover = true;
+    $("#cover-results").hidden = true;
+    updateEditPreview();
   }
 
   function submitEdit(e) {
@@ -352,11 +407,25 @@
     if (!title) return $("#edit-title").focus();
     const cover = $("#edit-cover").value.trim();
     const target = $("#edit-tier").value;
-    const label = target !== found.listId ? `Move ${title} to ${listName(target)}` : `Edit ${title}`;
+    const coverChanged = cover !== (found.game.cover || "");
+    const label = target !== found.listId ? `Move ${title} to ${listName(target)}`
+      : coverChanged && title === found.game.title ? `Change cover of ${title}`
+      : `Edit ${title}`;
     commit(() => {
       const f = findGame(editingId);
       f.game.title = title;
-      if (cover) f.game.cover = cover; else delete f.game.cover;
+      if (cover) {
+        const picked = editCover && editCover.cover === cover;
+        f.game.cover = cover;
+        f.game.coverType = picked ? editCover.coverType || "box" : "box";
+        if (picked && editCover.rawgId) f.game.rawgId = editCover.rawgId; else delete f.game.rawgId;
+        delete f.game.noCover;
+      } else {
+        delete f.game.cover;
+        delete f.game.coverType;
+        delete f.game.rawgId;
+        if (editNoCover) f.game.noCover = true;
+      }
       if (target !== f.listId) {
         f.list.splice(f.index, 1);
         listOf(target).push(f.game);
@@ -509,6 +578,100 @@
     } finally {
       document.body.classList.remove("exporting");
     }
+  }
+
+  // ---------- cover art ----------
+  function allGames() {
+    return [...state.unranked, ...state.tiers.flatMap((t) => t.games)];
+  }
+
+  function coverStats() {
+    const games = allGames();
+    const withCover = games.filter((g) => g.cover).length;
+    const skipped = games.filter((g) => !g.cover && g.noCover).length;
+    return { total: games.length, withCover, missing: games.length - withCover - skipped };
+  }
+
+  function updateCoversInfo(extra = "") {
+    const { total, withCover, missing } = coverStats();
+    $("#covers-info").textContent = `${withCover} / ${total} GAMES HAVE COVERS. ${missing} MISSING.` + (extra ? " " + extra : "");
+  }
+
+  function openCovers() {
+    $("#rawg-key").value = Covers.getKey();
+    updateCoversInfo();
+    $("#dlg-covers").showModal();
+  }
+
+  /** Swap one card's DOM node after its cover changed (skipped mid-drag). */
+  function refreshCard(id) {
+    if (document.body.classList.contains("dragging")) return;
+    const old = $(`#board .card[data-id="${CSS.escape(id)}"]`);
+    const found = findGame(id);
+    if (old && found) old.replaceWith(cardEl(found.game));
+  }
+
+  /** Look up covers for the given game ids (default: all games missing one). */
+  async function fetchCovers(ids, { quiet = false } = {}) {
+    if (coverJob) return toast("▣ ALREADY FETCHING COVERS…");
+    const todo = (ids || allGames().filter((g) => !g.cover && !g.noCover).map((g) => g.id));
+    if (!todo.length) return quiet || toast("▣ EVERY GAME ALREADY HAS A COVER");
+    const snapshot = clone(state);
+    let done = 0, found = 0, failed = 0;
+    const notFound = [];
+    coverJob = { cancel: false };
+    const btn = $("#btn-fetch-covers");
+    btn.disabled = true;
+
+    const worker = async () => {
+      while (todo.length && !coverJob.cancel) {
+        const id = todo.shift();
+        const game = findGame(id)?.game;
+        if (!game || game.cover) { done++; continue; }
+        try {
+          const r = await Covers.find(game.title);
+          const g = findGame(id)?.game; // state may have been replaced by a sync pull
+          if (r && g && !g.cover) {
+            Object.assign(g, r);
+            found++;
+            persist();
+            refreshCard(id);
+          } else if (!r) notFound.push(game.title);
+        } catch (e) {
+          failed++;
+          if (e.code === "nokey" || e.status === 401) { coverJob.cancel = true; toast("⚠ RAWG REJECTED THE API KEY", 5000); }
+        }
+        done++;
+        if (!quiet) {
+          const msg = `▣ COVERS ${done}/${done + todo.length}…`;
+          toast(msg, 60000);
+          if ($("#dlg-covers").open) updateCoversInfo(`FETCHING ${done}/${done + todo.length}…`);
+        }
+      }
+    };
+    await Promise.all([worker(), worker(), worker(), worker()]);
+
+    coverJob = null;
+    btn.disabled = false;
+    if (found) {
+      pushUndo(snapshot);
+      save(found === 1 && todo.length === 0 && ids && ids.length === 1
+        ? `Add cover for ${findGame(ids[0])?.game.title || "game"}`
+        : `Add cover art for ${found} game${found > 1 ? "s" : ""}`);
+      render();
+    }
+    if ($("#dlg-covers").open) updateCoversInfo(notFound.length ? `NOT FOUND: ${notFound.join(", ")}.` : "");
+    if (!quiet) {
+      toast(`▣ ADDED ${found} COVER${found === 1 ? "" : "S"}` + (notFound.length ? ` · ${notFound.length} NOT FOUND` : "") + (failed ? ` · ${failed} ERRORS` : ""), 5000);
+    }
+  }
+
+  function submitCovers(e) {
+    e.preventDefault();
+    const key = $("#rawg-key").value.trim();
+    if (!key) return $("#rawg-key").focus();
+    Covers.setKey(key);
+    fetchCovers();
   }
 
   // ---------- GitHub sync ----------
@@ -794,6 +957,10 @@
   // ---------- events ----------
   function bind() {
     $("#sync-status").addEventListener("click", openSync);
+    $("#form-covers").addEventListener("submit", submitCovers);
+    $("#rawg-key").addEventListener("change", () => Covers.setKey($("#rawg-key").value.trim()));
+    $("#btn-find-cover").addEventListener("click", findCoverOptions);
+    $("#btn-remove-cover").addEventListener("click", removeEditCover);
     $("#form-sync").addEventListener("submit", submitSync);
     $("#btn-disconnect").addEventListener("click", () => {
       if (!confirm("Stop syncing this device? Your list stays here, but changes won't reach GitHub.")) return;
@@ -829,6 +996,7 @@
       if (!action) return;
       if (action !== "import") $("#dlg-menu").close();
       if (action === "sync") openSync();
+      if (action === "covers") openCovers();
       if (action === "tiers") { renderTierRows(); $("#dlg-tiers").showModal(); }
       if (action === "png") exportPng();
       if (action === "export") exportJson();
