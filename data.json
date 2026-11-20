@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:53:53.739Z",
+  "updatedAt": "2026-11-20T22:55:07.664Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -1457,13 +1457,6 @@
       "theme": "stone",
       "games": [
         {
-          "id": "v-rising",
-          "title": "V Rising",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/library_600x900.jpg",
-          "coverType": "box",
-          "rawgId": 602224
-        },
-        {
           "id": "detroit-become-human",
           "title": "Detroit: Become Human",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/library_600x900.jpg",
@@ -1483,6 +1476,13 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 278
+        },
+        {
+          "id": "v-rising",
+          "title": "V Rising",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 602224
         },
         {
           "id": "ghost-of-tsushima",
@@ -1546,6 +1546,13 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 842402
+        },
+        {
+          "id": "flow",
+          "title": "Flow",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1453870/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 5424
         },
         {
           "id": "mass-effect-andromeda",
@@ -1658,13 +1665,6 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225570/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 58735
-        },
-        {
-          "id": "flow",
-          "title": "Flow",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1453870/library_600x900.jpg",
-          "coverType": "box",
-          "rawgId": 5424
         },
         {
           "id": "roguebook",
