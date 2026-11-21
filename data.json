@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:41:43.495Z",
+  "updatedAt": "2026-11-21T17:41:46.624Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -778,6 +778,13 @@
           "rawgId": 1812
         },
         {
+          "id": "133vp36r",
+          "title": "Ball x Pit",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
+          "coverType": "art",
+          "rawgId": 1008166
+        },
+        {
           "id": "loot-river",
           "title": "Loot River",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1494260/library_600x900.jpg",
@@ -839,13 +846,6 @@
           "cover": "https://media.rawg.io/media/resize/640/-/screenshots/a73/a73ce51bff960a92a7e810db7bf4fb89.jpeg",
           "coverType": "art",
           "rawgId": 5352
-        },
-        {
-          "id": "133vp36r",
-          "title": "Ball x Pit",
-          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
-          "coverType": "art",
-          "rawgId": 1008166
         }
       ]
     },
