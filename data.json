@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:43:34.131Z",
+  "updatedAt": "2026-11-21T17:44:14.095Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -1163,13 +1163,6 @@
           "rawgId": 257201
         },
         {
-          "id": "path-of-exile-2",
-          "title": "Path of Exile 2",
-          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/library_600x900.jpg",
-          "coverType": "box",
-          "rawgId": 391403
-        },
-        {
           "id": "monster-hunter-rise",
           "title": "Monster Hunter Rise",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/library_600x900.jpg",
@@ -1759,6 +1752,13 @@
       "title": "Rune Dice",
       "cover": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/runedice/16x9_RuneDice_image1600w.jpg",
       "coverType": "box"
+    },
+    {
+      "id": "path-of-exile-2",
+      "title": "Path of Exile 2",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/library_600x900.jpg",
+      "coverType": "box",
+      "rawgId": 391403
     }
   ]
 }
