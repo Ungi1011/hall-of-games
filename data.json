@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:41:46.624Z",
+  "updatedAt": "2026-11-21T17:41:51.951Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -666,6 +666,13 @@
           "rawgId": 2518
         },
         {
+          "id": "133vp36r",
+          "title": "Ball x Pit",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
+          "coverType": "art",
+          "rawgId": 1008166
+        },
+        {
           "id": "wolfenstein-the-old-blood",
           "title": "Wolfenstein: The Old Blood",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/350080/library_600x900.jpg",
@@ -776,13 +783,6 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/373990/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 1812
-        },
-        {
-          "id": "133vp36r",
-          "title": "Ball x Pit",
-          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
-          "coverType": "art",
-          "rawgId": 1008166
         },
         {
           "id": "loot-river",
