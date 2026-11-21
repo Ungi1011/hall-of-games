@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:44:40.041Z",
+  "updatedAt": "2026-11-21T17:44:44.802Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -1126,12 +1126,6 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525310/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 1002735
-        },
-        {
-          "id": "xyozf2yh",
-          "title": "Rune Dice",
-          "cover": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/runedice/16x9_RuneDice_image1600w.jpg",
-          "coverType": "box"
         }
       ]
     },
@@ -1202,6 +1196,12 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 9551
+        },
+        {
+          "id": "xyozf2yh",
+          "title": "Rune Dice",
+          "cover": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/runedice/16x9_RuneDice_image1600w.jpg",
+          "coverType": "box"
         },
         {
           "id": "batman-arkham-origins",
