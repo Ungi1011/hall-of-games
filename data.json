@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:34:17.509Z",
+  "updatedAt": "2026-11-21T17:34:41.196Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -104,6 +104,13 @@
           "cover": "https://media.rawg.io/media/resize/640/-/games/8ea/8ea1e2850d7568bc9733d546c0ac6ce1.jpg",
           "coverType": "art",
           "rawgId": 59248
+        },
+        {
+          "id": "m6t7ju74",
+          "title": "Hades II",
+          "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/library_600x900.jpg",
+          "coverType": "box",
+          "rawgId": 891238
         },
         {
           "id": "clair-obscur-expedition-33",
@@ -1739,13 +1746,5 @@
       ]
     }
   ],
-  "unranked": [
-    {
-      "id": "m6t7ju74",
-      "title": "Hades II",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/library_600x900.jpg",
-      "coverType": "box",
-      "rawgId": 891238
-    }
-  ]
+  "unranked": []
 }
