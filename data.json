@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:42:08.459Z",
+  "updatedAt": "2026-11-21T17:42:40.347Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -1753,5 +1753,10 @@
       ]
     }
   ],
-  "unranked": []
+  "unranked": [
+    {
+      "id": "xyozf2yh",
+      "title": "Rune Dice"
+    }
+  ]
 }
