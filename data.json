@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:40:52.702Z",
+  "updatedAt": "2026-11-21T17:41:43.495Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -839,6 +839,13 @@
           "cover": "https://media.rawg.io/media/resize/640/-/screenshots/a73/a73ce51bff960a92a7e810db7bf4fb89.jpeg",
           "coverType": "art",
           "rawgId": 5352
+        },
+        {
+          "id": "133vp36r",
+          "title": "Ball x Pit",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
+          "coverType": "art",
+          "rawgId": 1008166
         }
       ]
     },
@@ -1746,13 +1753,5 @@
       ]
     }
   ],
-  "unranked": [
-    {
-      "id": "133vp36r",
-      "title": "Ball x Pit",
-      "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
-      "coverType": "art",
-      "rawgId": 1008166
-    }
-  ]
+  "unranked": []
 }
