@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:44:44.802Z",
+  "updatedAt": "2026-11-21T17:46:49.055Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -353,9 +353,8 @@
         {
           "id": "katamari-damacy",
           "title": "Katamari Damacy",
-          "cover": "https://media.rawg.io/media/resize/640/-/screenshots/c4e/c4ea10607b6df252b45b1820f2fcaaf5.jpg",
-          "coverType": "art",
-          "rawgId": 4024
+          "cover": "https://cdn-images.dzcdn.net/images/cover/aedd4dcee7c61b74f983af5729ee4d1f/0x1900-000000-80-0-0.jpg",
+          "coverType": "box"
         },
         {
           "id": "god-of-war-ii",
