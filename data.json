@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:42:01.524Z",
+  "updatedAt": "2026-11-21T17:42:04.910Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -694,18 +694,18 @@
           "rawgId": 4297
         },
         {
-          "id": "133vp36r",
-          "title": "Ball x Pit",
-          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
-          "coverType": "art",
-          "rawgId": 1008166
-        },
-        {
           "id": "risk-of-rain",
           "title": "Risk of Rain",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/248820/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 2556
+        },
+        {
+          "id": "133vp36r",
+          "title": "Ball x Pit",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
+          "coverType": "art",
+          "rawgId": 1008166
         },
         {
           "id": "thumper",
