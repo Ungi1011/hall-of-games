@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T23:00:20.297Z",
+  "updatedAt": "2026-11-21T17:34:17.509Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -1739,5 +1739,13 @@
       ]
     }
   ],
-  "unranked": []
+  "unranked": [
+    {
+      "id": "m6t7ju74",
+      "title": "Hades II",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/library_600x900.jpg",
+      "coverType": "box",
+      "rawgId": 891238
+    }
+  ]
 }
