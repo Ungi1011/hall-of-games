@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:42:04.910Z",
+  "updatedAt": "2026-11-21T17:42:08.459Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -701,18 +701,18 @@
           "rawgId": 2556
         },
         {
-          "id": "133vp36r",
-          "title": "Ball x Pit",
-          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
-          "coverType": "art",
-          "rawgId": 1008166
-        },
-        {
           "id": "thumper",
           "title": "Thumper",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/356400/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 1152
+        },
+        {
+          "id": "133vp36r",
+          "title": "Ball x Pit",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
+          "coverType": "art",
+          "rawgId": 1008166
         },
         {
           "id": "like-a-dragon-ishin",
