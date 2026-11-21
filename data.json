@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:47:22.086Z",
+  "updatedAt": "2026-11-21T17:48:27.966Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -379,10 +379,10 @@
         },
         {
           "id": "diablo-ii",
-          "title": "Diablo II: Resurected",
-          "cover": "https://media.rawg.io/media/resize/640/-/games/8f7/8f79c37b124822e59af54023ae6bb384.jpg",
+          "title": "Diablo II: Resurrected",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/3f2/3f207dcc7931598567a90bc779a95cf8.jpg",
           "coverType": "art",
-          "rawgId": 22512
+          "rawgId": 560733
         },
         {
           "id": "gta-san-andreas",
