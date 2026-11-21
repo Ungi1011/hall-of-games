@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:41:55.332Z",
+  "updatedAt": "2026-11-21T17:42:01.524Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -673,13 +673,6 @@
           "rawgId": 3346
         },
         {
-          "id": "133vp36r",
-          "title": "Ball x Pit",
-          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
-          "coverType": "art",
-          "rawgId": 1008166
-        },
-        {
           "id": "neon-white",
           "title": "Neon White",
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1533420/library_600x900.jpg",
@@ -699,6 +692,13 @@
           "cover": "https://media.rawg.io/media/resize/640/-/games/14e/14e4214a252c67083206aa6af30e13ed.jpg",
           "coverType": "art",
           "rawgId": 4297
+        },
+        {
+          "id": "133vp36r",
+          "title": "Ball x Pit",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/798/798705b4f25e958e4ab8edf570e215f8.jpg",
+          "coverType": "art",
+          "rawgId": 1008166
         },
         {
           "id": "risk-of-rain",
