@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:42:40.347Z",
+  "updatedAt": "2026-11-21T17:43:34.131Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -1756,7 +1756,9 @@
   "unranked": [
     {
       "id": "xyozf2yh",
-      "title": "Rune Dice"
+      "title": "Rune Dice",
+      "cover": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/runedice/16x9_RuneDice_image1600w.jpg",
+      "coverType": "box"
     }
   ]
 }
