@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T16:40:17.758Z",
+  "updatedAt": "2026-11-24T16:40:52.425Z",
   "tiers": [
     {
       "id": "rushmore",
@@ -125,6 +125,13 @@
           "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190460/library_600x900.jpg",
           "coverType": "box",
           "rawgId": 50738
+        },
+        {
+          "id": "0dglnnje",
+          "title": "Phantom Blade Zero",
+          "cover": "https://media.rawg.io/media/resize/640/-/games/25f/25f536a977488f12ef8a6d013e50fda1.jpg",
+          "coverType": "art",
+          "rawgId": 961205
         },
         {
           "id": "the-witness",
@@ -1758,13 +1765,6 @@
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/library_600x900.jpg",
       "coverType": "box",
       "rawgId": 391403
-    },
-    {
-      "id": "0dglnnje",
-      "title": "Phantom Blade Zero",
-      "cover": "https://media.rawg.io/media/resize/640/-/games/25f/25f536a977488f12ef8a6d013e50fda1.jpg",
-      "coverType": "art",
-      "rawgId": 961205
     }
   ]
 }
